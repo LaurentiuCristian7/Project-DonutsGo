@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DonutsGo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DonutsGo.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DonutsGo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DonutsGo.Application.dll": {}
+        }
+      },
+      "DonutsGo.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DonutsGo.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DonutsGo.DataAccess.dll": {}
+        }
       }
     }
   },
@@ -216,10 +239,21 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "DonutsGo.Application/1.0.0": {
+      "type": "project",
+      "path": "../DonutsGo.Application/DonutsGo.Application.csproj",
+      "msbuildProject": "../DonutsGo.Application/DonutsGo.Application.csproj"
+    },
+    "DonutsGo.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DonutsGo.DataAccess/DonutsGo.DataAccess.csproj",
+      "msbuildProject": "../DonutsGo.DataAccess/DonutsGo.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DonutsGo.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -255,7 +289,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.Application\\DonutsGo.Application.csproj": {
+              "projectPath": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.Application\\DonutsGo.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

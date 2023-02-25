@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DonutsGo.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DonutsGo.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DonutsGo.DataAccess.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DonutsGo.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DonutsGo.DataAccess/DonutsGo.DataAccess.csproj",
+      "msbuildProject": "../DonutsGo.DataAccess/DonutsGo.DataAccess.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DonutsGo.DataAccess >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Laurentiu\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj": {
+              "projectPath": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

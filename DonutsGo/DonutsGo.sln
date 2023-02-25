@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonutsGo.API", "DonutsGo.API\DonutsGo.API.csproj", "{82841C04-41AF-47D1-A260-3E3E88B82895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonutsGo.DataAccess", "DonutsGo.DataAccess\DonutsGo.DataAccess.csproj", "{8B863ACD-D9A3-4503-B1F7-0F151FD95A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonutsGo.Application", "DonutsGo.Application\DonutsGo.Application.csproj", "{D80B686B-5763-4128-B74C-A486C91D2D0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{82841C04-41AF-47D1-A260-3E3E88B82895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82841C04-41AF-47D1-A260-3E3E88B82895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82841C04-41AF-47D1-A260-3E3E88B82895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B863ACD-D9A3-4503-B1F7-0F151FD95A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B863ACD-D9A3-4503-B1F7-0F151FD95A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B863ACD-D9A3-4503-B1F7-0F151FD95A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B863ACD-D9A3-4503-B1F7-0F151FD95A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80B686B-5763-4128-B74C-A486C91D2D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80B686B-5763-4128-B74C-A486C91D2D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80B686B-5763-4128-B74C-A486C91D2D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80B686B-5763-4128-B74C-A486C91D2D0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

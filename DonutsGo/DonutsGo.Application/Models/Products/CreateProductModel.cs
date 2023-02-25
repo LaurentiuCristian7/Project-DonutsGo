@@ -1,8 +1,8 @@
-﻿using DonutsGo.API.Entities;
+﻿using DonutsGo.DataAccess.Entities;
 
-namespace DonutsGo.API.Models.Products
+namespace DonutsGo.Application.Models.Products
 {
-    public class CreateProductModel
+    public class CreateProductModel  //Product Model
     {
         public string Name { get; set; }
         public double Price { get; set; }

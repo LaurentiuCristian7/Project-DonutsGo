@@ -1,6 +1,6 @@
-﻿using DonutsGo.API.Entities;
+﻿using DonutsGo.DataAccess.Entities;
 
-namespace DonutsGo.API.Models.Products
+namespace DonutsGo.Application.Models.Products
 {
     public class ProductResponseModel
     {
@@ -8,5 +8,16 @@ namespace DonutsGo.API.Models.Products
         public string Name { get; set; }
         public double Price { get; set; }
         public ProductType Type { get; set; }
+
+        public static ProductResponseModel FromProduct(Product product)
+        {
+            return new ProductResponseModel
+            {
+                Id =product.Id,
+                Name = product.Name,
+                Price=product.Price,
+                Type=product.Type
+            };
+        }
     }
 }

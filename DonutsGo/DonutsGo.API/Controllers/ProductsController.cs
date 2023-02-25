@@ -1,5 +1,8 @@
-﻿using DonutsGo.API.Entities;
-using DonutsGo.API.Models.Products;
+﻿using DonutsGo.Application.Exceptions;
+using DonutsGo.Application.Models.Products;
+using DonutsGo.Application.Services;
+using DonutsGo.DataAccess;
+using DonutsGo.DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -9,32 +12,18 @@ namespace DonutsGo.API.Controllers
     [Route("[controller]")]
     public class ProductsController : ControllerBase
     {
+        private readonly ProductService productService;
+
         public ProductsController() 
-        { }
+        { 
+            this.productService = new ProductService();
+        }
 
         [HttpGet]
         public IActionResult GetProducts()
         {
-            // return new List<Product>
-            // {
-            //     new Product
-            //     {
-            //         Id =Guid.NewGuid(),
-            //         Name="Donut Chocolate",
-            //         Price =10,
-            //         Type =ProductType.Donut,
-            //
-            //
-            //     }
-            // };
-            var products = Storage.Products.Select(x => new ProductResponseModel
-            {
-                Id= x.Id,
-                Name= x.Name, 
-                Price = x.Price,
-                Type = x.Type
-            });
-            return  Ok(products);
+          
+            return Ok(this.productService.GetAllProducts());
         }
 
         [HttpGet("{id}")]
@@ -48,28 +37,17 @@ namespace DonutsGo.API.Controllers
         [HttpPost]
         public IActionResult CreateProduct( CreateProductModel requestModel)
         {
-            var product = new Product
-            {
-                Id =Guid.NewGuid(),
-                Name = requestModel.Name,
-                Price = requestModel.Price,
-                Type = requestModel.Type,
-            };
 
-            if(string.IsNullOrEmpty(requestModel.Name))
+            try
             {
-                return BadRequest("Name cannot be empty");
-
+                return Ok( this.productService.CreateProduct(requestModel));
+            }
+            catch(ValidationException exception)
+            {
+                return BadRequest(exception.Message);
             }
 
-            if (requestModel.Name.Length < 4)
-            {
-                return BadRequest("Name should  have lenght greater than 4.");
-            }
-
-            Storage.Products.Add(product);
-
-            return Ok(product);
+          
         }
 
         [HttpPut("{id}")]

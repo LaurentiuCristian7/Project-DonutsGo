@@ -5,7 +5,7 @@ using DonutsGo.DataAccess.Entities;
 
 namespace DonutsGo.Application.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
         public List<ProductResponseModel>GetAllProducts()
         {

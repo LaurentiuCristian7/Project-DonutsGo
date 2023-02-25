@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DonutsGo.Application/1.0.0": {
+        "dependencies": {
+          "DonutsGo.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "DonutsGo.Application.dll": {}
+        }
+      },
+      "DonutsGo.DataAccess/1.0.0": {
+        "runtime": {
+          "DonutsGo.DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DonutsGo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DonutsGo.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

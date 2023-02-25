@@ -25,3 +25,7 @@ D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\refint\DonutsGo.AP
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\DonutsGo.API.pdb
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\DonutsGo.API.genruntimeconfig.cache
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\ref\DonutsGo.API.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.Application.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.DataAccess.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.Application.pdb
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.DataAccess.pdb

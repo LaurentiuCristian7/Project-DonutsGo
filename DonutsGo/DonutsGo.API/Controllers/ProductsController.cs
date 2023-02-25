@@ -12,11 +12,11 @@ namespace DonutsGo.API.Controllers
     [Route("[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly ProductService productService;
+        private readonly IProductService productService;
 
-        public ProductsController() 
+        public ProductsController(IProductService productService) 
         { 
-            this.productService = new ProductService();
+            this.productService = productService;
         }
 
         [HttpGet]

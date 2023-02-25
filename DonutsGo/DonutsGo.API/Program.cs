@@ -1,4 +1,5 @@
 using DonutsGo.Application.Services;
+using DonutsGo.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IProductService,ProductService2>();
+builder.Services.AddScoped<IProductService,ProductService>();
+
+
+//builder.Services.AddTransient<IDataAccessDemo, DataAccessDemo>();
+//builder.Services.AddScoped<IDataAccessDemo, DataAccessDemo>();
+builder.Services.AddSingleton<IDataAccessDemo, DataAccessDemo>();
+
+
+
 
 var app = builder.Build();
 

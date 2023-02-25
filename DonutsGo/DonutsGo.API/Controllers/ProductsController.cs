@@ -6,6 +6,8 @@ using DonutsGo.DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 
+
+
 namespace DonutsGo.API.Controllers
 {
     [ApiController]
@@ -14,7 +16,7 @@ namespace DonutsGo.API.Controllers
     {
         private readonly IProductService productService;
 
-        public ProductsController(IProductService productService) 
+        public ProductsController(IProductService productService,IDataAccessDemo dataAccessDemo) 
         { 
             this.productService = productService;
         }

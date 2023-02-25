@@ -7,6 +7,11 @@ namespace DonutsGo.Application.Services
 {
     public class ProductService : IProductService
     {
+        public ProductService(IDataAccessDemo dataAccessDemo)
+        {
+            Console.WriteLine();
+        }
+
         public List<ProductResponseModel>GetAllProducts()
         {
             var products = Storage.Products.Select(x => new ProductResponseModel

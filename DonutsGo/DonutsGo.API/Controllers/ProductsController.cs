@@ -16,7 +16,7 @@ namespace DonutsGo.API.Controllers
     {
         private readonly IProductService productService;
 
-        public ProductsController(IProductService productService,IDataAccessDemo dataAccessDemo) 
+        public ProductsController(IProductService productService)
         { 
             this.productService = productService;
         }

@@ -7,9 +7,9 @@ namespace DonutsGo.Application.Services
 {
     public class ProductService : IProductService
     {
-        public ProductService(IDataAccessDemo dataAccessDemo)
+        public ProductService()
         {
-            Console.WriteLine();
+            
         }
 
         public List<ProductResponseModel>GetAllProducts()

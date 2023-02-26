@@ -1,5 +1,6 @@
 using DonutsGo.Application.Services;
-
+using DonutsGo.DataAccess;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +12,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService,ProductService>();
 
 
-
+builder.Services.AddDbContext<DatabaseContext>(options =>
+{
+    options.UseSqlServer("Data Source=(LocalDb)\\\\MSSQLLocalDB;Initial Catalog=NTier;Integrated Security=True");
+});
 
 
 

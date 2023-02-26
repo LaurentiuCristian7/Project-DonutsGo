@@ -7,22 +7,37 @@ namespace DonutsGo.Application.Services
 {
     public class ProductService : IProductService
     {
-        public ProductService()
+        private readonly DatabaseContext databaseContext;
+
+        public ProductService(DatabaseContext databaseContext)
         {
-            
+            this.databaseContext =databaseContext;
         }
 
         public List<ProductResponseModel>GetAllProducts()
         {
-            var products = Storage.Products.Select(x => new ProductResponseModel
-            {
-                Id= x.Id,
-                Name= x.Name,
-                Price = x.Price,
-                Type = x.Type
-            }).ToList();
 
-            return products;
+
+          //  var products = Storage.Products.Select(x => new ProductResponseModel
+          //  {
+          //      Id= x.Id,
+           //     Name= x.Name,
+          //      Price = x.Price,
+          //      Type = x.Type
+          //  }).ToList();
+
+            var products = this.databaseContext.Products.ToList();  
+            
+            var response =products.Select(x => new ProductResponseModel
+            {
+                  Id= x.Id,
+                  Name= x.Name,
+                  Price = x.Price,
+                  Type = x.Type
+            }).ToList();
+            
+
+            return response;
         }
 
         public ProductResponseModel CreateProduct(CreateProductModel model)
@@ -45,7 +60,11 @@ namespace DonutsGo.Application.Services
                 Type = model.Type,
             };
 
-            Storage.Products.Add(product);
+            this.databaseContext.Products.Add(product);
+
+            this.databaseContext.SaveChanges(); 
+
+            //Storage.Products.Add(product);
 
           //  return new ProductResponseModel
           //  {

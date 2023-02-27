@@ -14,7 +14,7 @@ builder.Services.AddScoped<IProductService,ProductService>();
 
 builder.Services.AddDbContext<DatabaseContext>(options =>
 {
-    options.UseSqlServer("Data Source=(LocalDb)\\\\MSSQLLocalDB;Initial Catalog=NTier;Integrated Security=True");
+    options.UseSqlServer("Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=DonutsGo;Integrated Security=True");
 });
 
 

@@ -16,6 +16,10 @@ namespace DonutsGo.DataAccess
 
         public DbSet<Product> Products { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<ProductUser> ProductUsers { get; set; }
+
         
         protected  override void  OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,7 +31,21 @@ namespace DonutsGo.DataAccess
                 .IsRequired()
                 .HasMaxLength(100);
 
-             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<ProductUser>()
+                .HasKey(productUser => new { productUser.UserId, productUser.ProductId });
+
+            modelBuilder.Entity<ProductUser>()
+                .HasOne<Product>(x => x.Product)
+                .WithMany(x => x.Users)
+                .HasForeignKey(x => x.ProductId);
+
+
+            modelBuilder.Entity<ProductUser>()
+              .HasOne<User>(x => x.User)
+              .WithMany(x => x.Products)
+              .HasForeignKey(x => x.UserId);
+
+            base.OnModelCreating(modelBuilder);
         }
 
     }

@@ -16,6 +16,11 @@ public class Product
 
 
     public DateTime CreatedAt { get; set; }
+
+    public List<ProductUser>Users { get; set; }
+
+         
+
 }
 
 public enum ProductType

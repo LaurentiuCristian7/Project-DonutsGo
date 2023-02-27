@@ -29,6 +29,8 @@ namespace DonutsGo.DataAccess.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Products");
+
+           
         }
     }
 }

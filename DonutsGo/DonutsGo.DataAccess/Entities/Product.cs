@@ -26,6 +26,6 @@ public class Product
 public enum ProductType
 {
     Donut = 1,
-    Juice = 2,
-    Waffles = 3
+    Waffles = 2,
+    Drinks = 3
 }

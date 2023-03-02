@@ -18,13 +18,7 @@ namespace DonutsGo.Application.Services
         {
 
 
-          //  var products = Storage.Products.Select(x => new ProductResponseModel
-          //  {
-          //      Id= x.Id,
-           //     Name= x.Name,
-          //      Price = x.Price,
-          //      Type = x.Type
-          //  }).ToList();
+          
 
             var products = this.databaseContext.Products.ToList();  
             

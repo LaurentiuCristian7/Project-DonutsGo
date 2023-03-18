@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmVldGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/()Proiect Wantsome+/DonutsGo/DonutsGo.WebUI/Components/GreetingInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmVldGluZ0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/()Proiect Wantsome+/DonutsGo/DonutsGo.WebUI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

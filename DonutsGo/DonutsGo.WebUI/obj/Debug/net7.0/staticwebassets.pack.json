@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net7.0\\build-gz\\pSODLIk3.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DonutsGo.WebUI.styles.css",
+      "PackagePath": "staticwebassets\\DonutsGo.WebUI.styles.css"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net7.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net7.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DonutsGo.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DonutsGo.WebUI.props",
+      "PackagePath": "build\\DonutsGo.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DonutsGo.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\DonutsGo.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DonutsGo.WebUI.props",
+      "PackagePath": "buildTransitive\\DonutsGo.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

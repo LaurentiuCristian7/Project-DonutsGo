@@ -64,3 +64,8 @@ D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\runtimes\win\lib\n
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\Humanizer.dll
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\staticwebassets\msbuild.DonutsGo.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\staticwebassets\msbuild.build.DonutsGo.API.props
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DonutsGo.API.props
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DonutsGo.API.props
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.API\obj\Debug\net6.0\staticwebassets.pack.json

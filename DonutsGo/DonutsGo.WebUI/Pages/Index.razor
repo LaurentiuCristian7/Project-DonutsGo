@@ -4,11 +4,17 @@
 <PageTitle>Index</PageTitle>
 
 <h1>DonutsGo</h1>
+  
 
 
 Sweet sensations.
 
-<Greeting></Greeting>
+<Greeting Name=@name></Greeting>
 <GreetingInfo></GreetingInfo>
+        
 
 @*<SurveyPrompt Title="How is Blazor working for you?" />*@
+
+@code{
+    private string name ="Mihai";
+}

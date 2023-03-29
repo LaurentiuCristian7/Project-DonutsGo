@@ -1,7 +1,8 @@
 ﻿<h3>Greeting</h3>
 
-<p>Looks good ,right?.</p>
+<p>Looks good  @Name right?.</p>
 
-@code {
-
+@code {  
+ [Parameter]
+ public string Name { get;set;} =string.Empty;
 }

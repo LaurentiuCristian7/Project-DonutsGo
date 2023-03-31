@@ -2,10 +2,17 @@
 <div> 
 
        <p>Insert your name</p>
-       <input type ="text"/>
-       <button class="btn btn-primary">Add info</button>
+       <input type ="text"@bind-value="name"/>
+       <button class="btn btn-primary" @onclick="NotifyParent">Add info</button>
  </div>
 
 @code {
-    
+    private string name ;
+    [Parameter]
+    public EventCallback<string> OnButtonPresed { get; set; }
+
+    public void NotifyParent()
+    {
+        OnButtonPresed.InvokeAsync(name);
+    }
 }

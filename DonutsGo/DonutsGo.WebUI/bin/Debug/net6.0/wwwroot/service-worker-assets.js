@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -833,7 +833,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",
+      "hash": "sha256-daYJVBwRPr2wVXjU8we3eH45yiOIzHiiu52J5XeYomk=",
       "url": "_framework\/dotnet.6.0.15.6w3oj0iocp.js"
     },
     {
@@ -861,11 +861,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-HMNQ4wLWj5lOQEA7T03ia7\/Ujqx3cIMu9i\/FgIKdRqo=",
+      "hash": "sha256-GTS2ApASWVwcTNtFxTHbq3CO1TSHHKRIdG5u\/1L1Elo=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
     {
-      "hash": "sha256-MYf4bPRSAVp8jBN+ldOgROyIGBUUC+v+qCXmmO0IoT8=",
+      "hash": "sha256-c+sp5zYlMXsZuh6UNgZ0Q3OZDhutGlZxrmhYde\/C1zY=",
       "url": "_framework\/DonutsGo.WebUI.pdb"
     },
     {
@@ -873,9 +873,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-a45A95ltJY5XC8Dr2PL3\/zDcDBv8r\/dODJZ1pQeptJY=",
+      "hash": "sha256-e8bCBaR+b274Ewd6MzmalYCk+2jdpk4nsu2avotT234=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "8XIed\/YN"
+  "version": "Knul\/VQx"
 };

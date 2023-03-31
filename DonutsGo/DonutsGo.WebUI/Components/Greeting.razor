@@ -1,8 +1,14 @@
-﻿<GreetingInfo></GreetingInfo>
+﻿<GreetingInfo OnButtonPresed="ChangeName"></GreetingInfo>
 
 <p>Looks good  @Name right?</p>
 
-@code {  
- [Parameter]
- public string Name { get;set;} =string.Empty;
+@code {
+    [Parameter]
+    public string Name { get;set;} =string.Empty;
+
+    public void ChangeName(string name)
+    {
+        Name = name;
+    }
+
 }

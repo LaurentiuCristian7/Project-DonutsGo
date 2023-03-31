@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXJ7RwdUbf2hPZKz/fQfCKK1lPItc2SyYnM0m/Xu5Sh+opDhSOdf3ZBdgbM2UPNsiNIzbl0ZSR9hYzkC/iJuRA==",
+  "dgSpecHash": "qZd5J+vnZtSR4lk2ZZDt5iKe/eD6rm2r+RG9FUiLsNvhdiEMT2821SckXw1DCj5AJZ1dLDEtiZKaqJoVb00Fbg==",
   "success": true,
-  "projectFilePath": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.API\\DonutsGo.API.csproj",
+  "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.API\\DonutsGo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Laurentiu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

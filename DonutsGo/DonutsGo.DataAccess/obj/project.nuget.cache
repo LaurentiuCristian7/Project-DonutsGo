@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ULKfYOYgFan8l6sSPC/zOuqMDawTF/S70LEjX6xiwQzdZ8FV05Q000KZ4x9q9bXWW1AVJSECqxuJjuAXVyJFqg==",
+  "dgSpecHash": "eS0YhjN6rxGpV11LDJrRkEwmI/vfoLefshgyurboaRN4FHgMIbq5cXcRNS5d0g8nWs6IujygIdM2UCYFtWJpkA==",
   "success": true,
-  "projectFilePath": "D:\\()Proiect Wantsome+\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj",
+  "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -10,3 +10,15 @@ D:\()Proiect Wantsome+\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.Da
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\refint\DonutsGo.DataAccess.dll
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.pdb
 D:\()Proiect Wantsome+\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\ref\DonutsGo.DataAccess.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\bin\Debug\net6.0\DonutsGo.DataAccess.deps.json
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\bin\Debug\net6.0\DonutsGo.DataAccess.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\bin\Debug\net6.0\DonutsGo.DataAccess.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.csproj.AssemblyReference.cache
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.AssemblyInfoInputs.cache
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.AssemblyInfo.cs
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.csproj.CoreCompileInputs.cache
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\refint\DonutsGo.DataAccess.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\DonutsGo.DataAccess.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.DataAccess\obj\Debug\net6.0\ref\DonutsGo.DataAccess.dll

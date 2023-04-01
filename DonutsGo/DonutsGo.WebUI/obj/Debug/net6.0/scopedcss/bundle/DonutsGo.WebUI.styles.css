@@ -76,16 +76,16 @@ nav > ul[b-j1ozpe4jen] {
             display: block;
         }
 
-        nav > ul > li > ul[b-j1ozpe4jen] { 
-            display: block;
-            position: absolute;
-            width: 100%;
-            top: 40px;
-            left: 0%;
-            height: auto;
-            background-color: #222222;
-            display: none;
-        }
+    nav > ul > li > ul[b-j1ozpe4jen] {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 40px;
+        left: 0%;
+        height: auto;
+        background-color: #3605056b;
+        display: none;
+    }
 
             nav > ul > li > ul > li > a[b-j1ozpe4jen] {
                 text-decoration: none;
@@ -96,10 +96,18 @@ nav > ul[b-j1ozpe4jen] {
             }
 
                 nav > ul > li > ul > li > a:hover[b-j1ozpe4jen] {
-                    background-color: #333333;
+                    background-color: #aa050568;
                 }
 
 
+div[b-j1ozpe4jen]{
+    float:right;
+    width:150px;
+}
+back[b-j1ozpe4jen]{
+    float:left;
+    width:130px;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-yg9ixqbkqw] {
     position: relative;

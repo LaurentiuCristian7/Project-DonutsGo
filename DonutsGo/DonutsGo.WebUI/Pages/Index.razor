@@ -1,21 +1,41 @@
 ﻿@page "/"
 
+<PageTitle>Home</PageTitle>
 
-<PageTitle>Index</PageTitle>
-
-<h1>DonutsGo</h1>
+   <nav id="main-nav">
+     <h1 class="logo">DonutsGo<br>
+ </h1>
   
+  <ul>
+    <li><a class="active" href="#O-NAS">O NÁS</a></li>
+    <li><a href="#TABOR">TÁBOR</a>
+      <ul>
+        <li><a href="#UBYTOVANI">UBYTOVÁNÍ</a></li>
+        <li><a href="#STRAVOVANI">STRAVOVÁNÍ</a></li>
+        <li><a href="#OSETROVNA">OŠETŘOVNA</a></li>
+      </ul>
+    </li>
+    <li><a href="#KONTAKTY">KONTAKTY</a></li>
+    <li><a href="#DOKUMENTY">KE STAŽENÍ</a></li>
+  </ul>
+</nav>
 
 
-Sweet sensations.
+      
+    @*<div class="search-box">
+        <input type="text" placeholder="Type to search" class="search-txt">
+        <a href="" class="search-btn">
+            <i class="fas fa-search"></i>
+        </a>
+    </div> *@
 
 <Greeting></Greeting>
-<Products></Products>
+
 
         
 
 @*<SurveyPrompt Title="How is Blazor working for you?" />*@
 
 @code{
-    private string name ="Mihai";
+    
 }

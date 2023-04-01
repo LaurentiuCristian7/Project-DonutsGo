@@ -1646,3 +1646,6 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\ne
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\refint\DonutsGo.WebUI.dll
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\DonutsGo.WebUI.pdb
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\ref\DonutsGo.WebUI.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Components\Greeting.razor.rz.scp.css
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Components\GreetingInfo.razor.rz.scp.css
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css

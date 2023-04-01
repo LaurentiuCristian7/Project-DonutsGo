@@ -1,12 +1,12 @@
-﻿
-<div> 
+﻿@*
+<div>  
 
-       <p>Insert your name</p>
+       @*<p>Insert your name</p>
        <input type ="text"@bind-value="name"/>
-       <button class="btn btn-primary" @onclick="NotifyParent">Add info</button>
+       <button class="btn btn-primary" @onclick="NotifyParent">Add info</button> 
  </div>
 
-@code {
+ @code {
     private string name ;
     [Parameter]
     public EventCallback<string> OnButtonPresed { get; set; }
@@ -15,4 +15,4 @@
     {
         OnButtonPresed.InvokeAsync(name);
     }
-}
+}*@

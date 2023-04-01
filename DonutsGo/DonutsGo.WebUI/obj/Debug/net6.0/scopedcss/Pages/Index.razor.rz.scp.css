@@ -1,0 +1,94 @@
+#main-nav[b-j1ozpe4jen] {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.logo[b-j1ozpe4jen] {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 2px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > ul[b-j1ozpe4jen] {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    nav > ul > li[b-j1ozpe4jen] {
+        display: block;
+        float: left;
+        width: 25%;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+    }
+
+        nav > ul > li > a[b-j1ozpe4jen] { /*text v menu */
+            display: block;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: .9em;
+            font-weight: bold;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+            nav > ul > li > a.active[b-j1ozpe4jen] {
+                background-color: #4caf50;
+            }
+
+            nav > ul > li > a[b-j1ozpe4jen]::after { /*podtržení textu v menu */
+                content: '';
+                height: 0px;
+                width: 100%;
+                position: absolute;
+                background-color: #FFFFFF;
+                bottom: 0;
+                left: 0;
+                transition: all ease-in-out .2s;
+            }
+
+            nav > ul > li > a:hover[b-j1ozpe4jen] { /*pozadi */
+                background-color: #4caf50;
+            }
+
+                nav > ul > li > a:hover[b-j1ozpe4jen]::after {
+                    height: 3px;
+                }
+
+        nav > ul > li:hover > ul[b-j1ozpe4jen] {
+            display: block;
+        }
+
+        nav > ul > li > ul[b-j1ozpe4jen] { /*submenu "tabor" */
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 50px;
+            left: 0;
+            height: auto;
+            background-color: #222222;
+            display: none;
+        }
+
+            nav > ul > li > ul > li > a[b-j1ozpe4jen] {
+                text-decoration: none;
+                color: #f7f7f7;
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+                nav > ul > li > ul > li > a:hover[b-j1ozpe4jen] {
+                    background-color: #333333;
+                }

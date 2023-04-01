@@ -1,7 +1,7 @@
 ﻿#main-nav {
-    width: 100%;
+    width: 110%;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(43, 3, 49, 0.7);
     top: 0;
     left: 0;
     position: relative;
@@ -23,16 +23,16 @@ nav > ul {
     text-align: center;
 }
 
-    nav > ul > li {
-        display: block;
-        float: left;
-        width: 25%;
-        text-align: center;
-        line-height: 50px;
-        position: relative;
-    }
+ nav > ul > li {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+ }
 
-        nav > ul > li > a { /*text v menu */
+        nav > ul > li > a { 
             display: block;
             color: #FFFFFF;
             text-decoration: none;
@@ -44,10 +44,10 @@ nav > ul {
         }
 
             nav > ul > li > a.active {
-                background-color: #4caf50;
+                background-color: #a0040461;
             }
 
-            nav > ul > li > a::after { /*podtržení textu v menu */
+            nav > ul > li > a::after { 
                 content: '';
                 height: 0px;
                 width: 100%;
@@ -58,8 +58,8 @@ nav > ul {
                 transition: all ease-in-out .2s;
             }
 
-            nav > ul > li > a:hover { /*pozadi */
-                background-color: #4caf50;
+            nav > ul > li > a:hover {
+                background-color: #ae0909;
             }
 
                 nav > ul > li > a:hover::after {
@@ -70,12 +70,12 @@ nav > ul {
             display: block;
         }
 
-        nav > ul > li > ul { /*submenu "tabor" */
+        nav > ul > li > ul { 
             display: block;
             position: absolute;
             width: 100%;
-            top: 50px;
-            left: 0;
+            top: 40px;
+            left: 0%;
             height: auto;
             background-color: #222222;
             display: none;
@@ -92,3 +92,5 @@ nav > ul {
                 nav > ul > li > ul > li > a:hover {
                     background-color: #333333;
                 }
+
+

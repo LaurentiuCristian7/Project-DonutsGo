@@ -1,4 +1,71 @@
 
+
+
+
+.fl-fl[b-j1ozpe4jen] {
+    background: #0f8ac7;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 190px;
+    position: fixed;
+    right: -160px;
+    z-index: 1000;
+    font: normal normal 10px Arial;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.fa[b-j1ozpe4jen] {
+    font-size: 20px;
+    padding: 10px;
+    width: 40px;
+    margin-left: 8px;
+}
+
+.fl-fl:hover[b-j1ozpe4jen] {
+    right: 0;
+    color: aliceblue;
+}
+
+.fl-fl a[b-j1ozpe4jen] {
+    color: #fff !important;
+    text-decoration: #fff;
+    text-align: center;
+    line-height: 43px !important;
+    vertical-align: top !important;
+}
+
+.float-fb[b-j1ozpe4jen] {
+    top: 160px;
+    color: #fff;
+}
+
+.float-tw[b-j1ozpe4jen] {
+    top: 215px;
+}
+
+.float-gp[b-j1ozpe4jen] {
+    top: 270px;
+}
+
+.float-rs[b-j1ozpe4jen] {
+    top: 325px;
+}
+
+.float-ig[b-j1ozpe4jen] {
+    top: 380px;
+}
+
+.float-pn[b-j1ozpe4jen] {
+    top: 435px;
+}
+
+
+
+
 #main-nav[b-j1ozpe4jen] {
     width: 120%;
     height: 60px;
@@ -316,9 +383,5 @@ header label[b-j1ozpe4jen] {
         display: none;
     }
 }
-
-
-
-
 
 

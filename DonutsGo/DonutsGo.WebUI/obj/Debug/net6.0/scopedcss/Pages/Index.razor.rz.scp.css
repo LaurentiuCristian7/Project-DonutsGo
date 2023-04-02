@@ -162,17 +162,7 @@ nav > ul[b-j1ozpe4jen] {
                 }
 
 
-up[b-j1ozpe4jen]{
-    float:right;
-    width:160px;
-    height:160px;
-}
-back[b-j1ozpe4jen]{
-    float:left;
-    width:110px;
-    height:90px;
-    
-}
+
 
 body[b-j1ozpe4jen] {
     margin: 0 auto;
@@ -382,6 +372,170 @@ header label[b-j1ozpe4jen] {
     header label[b-j1ozpe4jen] {
         display: none;
     }
-}
 
 
+   
+
+
+
+
+    *[b-j1ozpe4jen] {
+        box-sizing: border-box;
+    }
+
+    body[b-j1ozpe4jen], html[b-j1ozpe4jen] {
+        font-family: 'Roboto Slab', serif;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10%;
+    }
+
+    body[b-j1ozpe4jen] {
+        background-color: #D2DBDD;
+        display: flex;
+        display: -webkit-flex;
+        -webkit-justify-content: center;
+        -webkit-align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards[b-j1ozpe4jen] {
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        -webkit-justify-content: center;
+        max-width: 1020px;
+    }
+
+    .card--1 .card__img[b-j1ozpe4jen], .card--1 .card__img--hover[b-j1ozpe4jen] {
+        background-image: url('https://images.pexels.com/photos/3060255/pexels-photo-3060255.jpeg?auto=compress&cs=tinysrgb&w=600');
+    }
+
+    .card--2 .card__img[b-j1ozpe4jen], .card--2 .card__img--hover[b-j1ozpe4jen] {
+        background-image: url('https://images.pexels.com/photos/4443492/pexels-photo-4443492.jpeg?auto=compress&cs=tinysrgb&w=600');
+    }
+
+    .card--2 .card__img[b-j1ozpe4jen], .card--2 .card__img--hover[b-j1ozpe4jen] {
+        background-image: url('https://images.pexels.com/photos/4443492/pexels-photo-4443492.jpeg?auto=compress&cs=tinysrgb&w=600');
+    }
+
+    .card__like[b-j1ozpe4jen] {
+        width: 18px;
+    }
+
+    .card__clock[b-j1ozpe4jen] {
+        width: 15px;
+        vertical-align: middle;
+        fill: #AD7D52;
+    }
+
+    .card__time[b-j1ozpe4jen] {
+        font-size: 12px;
+        color: #AD7D52;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
+    .card__clock-info[b-j1ozpe4jen] {
+        float: right;
+    }
+
+    .card__img[b-j1ozpe4jen] {
+        visibility: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 335px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .card__info-hover[b-j1ozpe4jen] {
+        position: absolute;
+        padding: 16px;
+        width: 100%;
+        opacity: 0;
+        top: 0;
+    }
+
+    .card__img--hover[b-j1ozpe4jen] {
+        transition: 0.2s all ease-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: absolute;
+        height: 335px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        top: 0;
+    }
+
+    .card[b-j1ozpe4jen] {
+        margin-right: 25px;
+        transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+        background-color: #fff;
+        width: 100.3%;
+        position: relative;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+    }
+
+        .card:hover[b-j1ozpe4jen] {
+            box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+            transform: scale(1.10, 1.10);
+        }
+
+    .card__info[b-j1ozpe4jen] {
+        z-index: 2;
+        background-color: #fff;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        padding: 16px 24px 24px 24px;
+    }
+
+    .card__category[b-j1ozpe4jen] {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        color: #868686;
+    }
+
+    .card__title[b-j1ozpe4jen] {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .card__by[b-j1ozpe4jen] {
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    .card__author[b-j1ozpe4jen] {
+        font-weight: 700;
+        text-decoration: none;
+        color: #AD7D52;
+    }
+
+    .card:hover .card__img--hover[b-j1ozpe4jen] {
+        height: 100%;
+        opacity: 0.3;
+    }
+
+    .card:hover .card__info[b-j1ozpe4jen] {
+        background-color: transparent;
+        position: relative;
+    }
+
+    .card:hover .card__info-hover[b-j1ozpe4jen] {
+        opacity: 1;
+    }

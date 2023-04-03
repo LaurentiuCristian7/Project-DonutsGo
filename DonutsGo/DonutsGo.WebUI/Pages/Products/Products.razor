@@ -1,43 +1,49 @@
 ﻿ @page "/products"
+ @inject HttpClient Http
+
+ 
+ <h3>Products</h3>
+
+   @if (products.Count==0) 
+   {      
+     <h3>No products founds...</h3>
+   }
+   else
+   {
+         <div class="d-flex  flex-wrap justify-content-between">
+           @foreach (var product in products)
+           {
+
+        <div class="card m-2" style="width: 35rem;">
+            <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
+                <div>
+                    <p>Name: @product.Name</p>
+                    <p>Price: @product.Price</p>
+                    <p>Type:@product.Type</p>
+                </div>
+        </div>
+
+                }
+        </div>
+
+
+   }
 
 
 
-<h3>Products</h3>
-
-
-<ul>
-
-    <li>Product 1</li>
-    <li>Product 2</li>
-    <li>product 3</li>
-    <li>Product 4</li>
-    <li>Product 5</li>
-</ul>
-
-@foreach(var product in products)
-{
-      <div>
-          <p>Name: @product.Name</p>
-          <p>Price: @product.Price</p>
-          <p>Type:@product.Type</p>
-      </div>
-}
 
 @code {
-    private List<ProductsResponseModel> products = new List<ProductsResponseModel>
-    {
-          new ProductsResponseModel
-          {
-              Id = Guid.NewGuid(),
-              Name = "Donuts chocolate",
-              Price =  123 ,
-              Type = ProductType.Donuts
-          }
-    };
+    private List<ProductResponseModel> products = new List<ProductResponseModel>();
 
-    public class ProductsResponseModel
+    protected override async Task OnInitializedAsync()
     {
-        public Guid Id { get; set; }
+        products = await Http .GetFromJsonAsync<List<ProductResponseModel>>("products");
+
+    }
+
+    public class ProductResponseModel
+    {
+        public Guid Id { get; set; }                           
 
         public string Name { get; set; }
 

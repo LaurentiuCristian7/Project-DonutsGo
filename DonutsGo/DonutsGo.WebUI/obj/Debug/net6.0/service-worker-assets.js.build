@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-uhotZszkBLq\/V8xt8UtpU6lGHEIqbqLsFUVGyelV2TU=",
+      "hash": "sha256-6iu04F0v+676VSjaKfNz\/b0G7R0xVZ+\/cW4DxluJpTk=",
       "url": "css\/app.css"
     },
     {
@@ -73,7 +73,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-APDrfFZgaZwBiVFE0bSfIhxRqTXgwIdsm5VDcXDAL\/w=",
+      "hash": "sha256-hnFEHfQD+y2DuTWoxLGb73G4DsXY9UKemAByu2AaL4k=",
       "url": "DonutsGo.WebUI.styles.css"
     },
     {
@@ -861,11 +861,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ReHdtqKXTQxmDcDDl\/9nNWdFD7vytvqYvy5Zn95ElPg=",
+      "hash": "sha256-dc8pCak0ea7tGKajCzBRGjc4IIJ\/vXu9VfsHIYEo+G8=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
     {
-      "hash": "sha256-tLODgLY6k82dASP81e1Ydc+pDOsBkY5MiSMMXuHAIiU=",
+      "hash": "sha256-luhMg57tM+2iqkaDQdIf\/XlRt1TC8VNfSg6dFUL05vg=",
       "url": "_framework\/DonutsGo.WebUI.pdb"
     },
     {
@@ -873,9 +873,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-sjQXDoJ8WUZ3SOc0b8DGaRBBPl+1gyPARwLAJdgqQaY=",
+      "hash": "sha256-2wYjfBz9lR+wZKH+Y8vWraUPMhVLm3KfcmbHSTbkxA4=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "3BYJixSG"
+  "version": "fSgvKTKi"
 };

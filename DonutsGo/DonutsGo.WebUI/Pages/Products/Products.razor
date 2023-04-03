@@ -1,0 +1,56 @@
+﻿ @page "/products"
+
+
+
+<h3>Products</h3>
+
+
+<ul>
+
+    <li>Product 1</li>
+    <li>Product 2</li>
+    <li>product 3</li>
+    <li>Product 4</li>
+    <li>Product 5</li>
+</ul>
+
+@foreach(var product in products)
+{
+      <div>
+          <p>Name: @product.Name</p>
+          <p>Price: @product.Price</p>
+          <p>Type:@product.Type</p>
+      </div>
+}
+
+@code {
+    private List<ProductsResponseModel> products = new List<ProductsResponseModel>
+    {
+          new ProductsResponseModel
+          {
+              Id = Guid.NewGuid(),
+              Name = "Donuts chocolate",
+              Price =  123 ,
+              Type = ProductType.Donuts
+          }
+    };
+
+    public class ProductsResponseModel
+    {
+        public Guid Id { get; set; }
+
+        public string Name { get; set; }
+
+        public double Price { get; set; }
+
+        public ProductType Type{ get;  set;}
+    }
+
+    public enum ProductType
+    {
+       Donuts=1,
+       Juice=2,
+       Waffles=3 
+
+    }
+}

@@ -1,0 +1,64 @@
+﻿@page "/create-product"
+@using System.ComponentModel.DataAnnotations;
+@using DonutsGo.Shared.Models;
+@using DonutsGo.Shared.Models.Products;
+@using DonutsGo.WebUI.Validations;
+@inject HttpClient Http
+@using static DonutsGo.WebUI.Pages.Products.Products;
+
+
+<EditForm class="d-flex flex-column align-items-center " Model="@product" OnSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    @*<ValidationSummary/> *@
+    <div class="m-2">
+        <label for="name">Name:</label>
+        <InputText id ="name" @bind-Value="@product.Name"></InputText>
+        <ValidationMessage For="@(() => product.Name)"/>
+    </div>
+
+    <div class="m-2">
+         <label for="price">Price:</label>
+         <InputNumber id="price" @bind-Value="@product.Price"></InputNumber>
+         <ValidationMessage For="@(() => product.Price)"/>
+    </div>
+
+    <div class="m-2">
+          <label for="=price">Type</label>
+          <InputSelect id="type" @bind-Value="@product.Type">
+        @foreach(var type in Enum.GetValues(typeof(ProductTypeResponseModel)))
+        {
+            <option value="@type">@type</option>
+        }
+    </InputSelect>
+   </div>
+
+    <button type"submit" calss="btn btn-primary">Create product</button>
+</EditForm>
+
+    <h4>@response</h4>
+
+@code {
+    private CreateProductModel product = new CreateProductModel();
+
+    private string response = string.Empty;
+
+    public class CreateProductModel
+    {
+        [Required]
+        [MinLength(3)]
+        public string Name { get; set; }
+
+
+        [IsGreaterThan(Value = 10 ,ErrorMessage ="Price should be greater than 10.")]
+        public double Price { get; set; }
+
+        public ProductTypeResponseModel Type { get; set; }
+
+    } 
+    public async Task HandleValidSubmit()
+    {
+        var response = await Http.PostAsJsonAsync("products", product);
+
+        this.response =  await response.Content.ReadAsStringAsync();
+    }
+}

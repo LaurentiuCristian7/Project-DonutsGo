@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DonutsGo.DataAccess\DonutsGo.DataAccess.csproj" />
+    <ProjectReference Include="..\DonutsGo.Shared\DonutsGo.Shared.csproj" />
   </ItemGroup>
 
 </Project>

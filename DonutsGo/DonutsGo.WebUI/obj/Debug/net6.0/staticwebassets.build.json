@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L2ycFElRCjXXtX53sjAurz35gu5uAD6osfZkZUstWEo=",
+  "Hash": "4ltlLcfDJCg950hUmHBOCZ2jlueKLqq3CKcJbpxcQNU=",
   "Source": "DonutsGo.WebUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.14\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.dll",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/DonutsGo.Shared.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Shared\\bin\\Debug\\net6.0\\DonutsGo.Shared.dll"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.pdb",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/DonutsGo.Shared.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Shared\\bin\\Debug\\net6.0\\DonutsGo.Shared.pdb"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.WebUI.dll",
@@ -4267,6 +4301,23 @@
       "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.dll"
     },
     {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\CZO8zafz.gz",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/DonutsGo.Shared.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.pdb"
+    },
+    {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\D5fO++Z6.gz",
       "SourceId": "DonutsGo.WebUI",
       "SourceType": "Computed",
@@ -5268,6 +5319,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.dll"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\lPXZ+nyq.gz",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/DonutsGo.Shared.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.dll"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\lUSyZgaa.gz",

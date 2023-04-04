@@ -14,10 +14,7 @@
           <li></li>
           <li></li>
        </ul>
-     
-
-    		
-	  	  
+       
         <nav id="main-nav">
 
          <h1 class="logo">DonutsGo<br>
@@ -28,7 +25,7 @@
             <li><a href="home">Home</a></li>
             <li><a href="">Products</a>
       <ul>
-            <li><a href="products">Donuts</a></li>
+            <li><a href="donuts">Donuts</a></li>
             <li><a href="waffles">Waffles</a></li>
             <li><a href="#OSETROVNA">Drinks</a></li>
       </ul>
@@ -69,17 +66,21 @@ else
 
 }
 
+   
+    @code {
+        private List<ProductResponseModel> products = new List<ProductResponseModel>();
 
-
-
-@code {
-      private List<ProductResponseModel> products = new List<ProductResponseModel>();
-
-      protected override async Task OnInitializedAsync()
-      {
-            products = await Http.GetFromJsonAsync<List<ProductResponseModel>>("products");
-
-      }
+        protected override async Task OnInitializedAsync()
+        {
+            try
+            {
+                products = await Http.GetFromJsonAsync<List<ProductResponseModel>>("products");
+            }
+            catch
+            {
+                products = new List<ProductResponseModel>();
+            }
+        }
 
       public class ProductResponseModel
       {

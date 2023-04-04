@@ -4,6 +4,8 @@ using DonutsGo.Application.Services;
 using DonutsGo.DataAccess;
 using DonutsGo.DataAccess.Entities;
 using Microsoft.AspNetCore.Mvc;
+using DonutsGo.Application.Exceptions;
+
 
 namespace DonutsGo.API.Controllers
 {
@@ -33,7 +35,7 @@ namespace DonutsGo.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateProduct( CreateProductModel requestModel)
+        public IActionResult CreateProduct( CreateProductRequestModel requestModel)
         {
             try
             {
@@ -46,18 +48,18 @@ namespace DonutsGo.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public  IActionResult UpdateProduct(Guid id, Product newproduct)
+        public  IActionResult UpdateProduct(Guid id, Product newProduct)
         {
             var product = Storage.Products.FirstOrDefault(x => x.Id == id);
 
             if (product == null)
             {
-                return NotFound();
+                return NotFound("");
             }
 
-            product.Name=newproduct.Name;
-            product.Price=newproduct.Price;
-            product.Type = newproduct.Type;
+            product.Name=newProduct.Name;
+            product.Price=newProduct.Price;
+            product.Type = newProduct.Type;
 
             return Ok(product);
         }

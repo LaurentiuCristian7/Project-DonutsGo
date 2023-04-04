@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "DonutsGo.Application/1.0.0": {
         "dependencies": {
-          "DonutsGo.DataAccess": "1.0.0"
+          "DonutsGo.DataAccess": "1.0.0",
+          "DonutsGo.Shared": "1.0.0"
         },
         "runtime": {
           "DonutsGo.Application.dll": {}
@@ -464,6 +465,11 @@
         "runtime": {
           "DonutsGo.DataAccess.dll": {}
         }
+      },
+      "DonutsGo.Shared/1.0.0": {
+        "runtime": {
+          "DonutsGo.Shared.dll": {}
+        }
       }
     }
   },
@@ -754,6 +760,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "DonutsGo.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DonutsGo.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

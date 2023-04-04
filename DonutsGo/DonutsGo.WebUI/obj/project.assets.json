@@ -498,6 +498,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "DonutsGo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DonutsGo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DonutsGo.Shared.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -990,6 +1000,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "DonutsGo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DonutsGo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DonutsGo.Shared.dll": {}
         }
       }
     }
@@ -1753,10 +1773,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DonutsGo.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DonutsGo.Shared/DonutsGo.Shared.csproj",
+      "msbuildProject": "../DonutsGo.Shared/DonutsGo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DonutsGo.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.14",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.14"
     ]
@@ -1793,7 +1819,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Shared\\DonutsGo.Shared.csproj": {
+              "projectPath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Shared\\DonutsGo.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

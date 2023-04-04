@@ -28,3 +28,5 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\De
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\refint\DonutsGo.Application.dll
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.pdb
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\ref\DonutsGo.Application.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Shared.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Shared.pdb

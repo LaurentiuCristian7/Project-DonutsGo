@@ -1,6 +1,8 @@
-﻿ @page "/products"
+﻿ @page "/donuts"
  @inject HttpClient Http
-
+ @inject NavigationManager NavManager
+ @using DonutsGo.Shared.Models
+@using DonutsGo.Shared.Models.Products;
 
 
   <div class="context"></div>
@@ -12,8 +14,7 @@
                     <li></li>
                     <li></li>
             </ul>
-      		
-	  	  
+      
       <nav id="main-nav">
 
         <h1 class="logo">DonutsGo<br>
@@ -24,7 +25,7 @@
                <li><a href="home">Home</a></li>
                <li><a href="">Products</a>
             <ul>
-               <li><a href="products">Donuts</a></li>
+               <li><a href="donuts">Donuts</a></li>
                <li><a href="waffles">Waffles</a></li>
                <li><a href="#OSETROVNA">Drinks</a></li>
            </ul>
@@ -38,7 +39,7 @@
       <br>
 
  
-       <h3>Donuts</h3>
+       <h1>Donuts</h1>
 
 @if (products.Count==0) 
 {      
@@ -52,7 +53,7 @@ else
 
 @foreach (var product in products)
 {
-
+       
       <div class="card m-2" style="width: 35rem;">
             <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
                 <div>
@@ -67,33 +68,22 @@ else
 
 
 
-@code {
-       private List<ProductResponseModel> products = new List<ProductResponseModel>();
+    @code {
+        private List<ProductResponseModel> products = new List<ProductResponseModel>();
 
-      protected override async Task OnInitializedAsync()
-      {  
-        products = await Http .GetFromJsonAsync<List<ProductResponseModel>>("products");
-
-      }
-
-      public class ProductResponseModel
-      {
-        public Guid Id { get; set; }                           
-
-        public string Name { get; set; }
-
-        public double Price { get; set; }
-
-        public ProductType Type{ get;  set;}
-      }
-
-      public enum ProductType
+        protected override async Task OnInitializedAsync()
         {
-         Donuts=1,
-         Juice=2,
-         Waffles=3 
+            try
+            {
+                products = await Http.GetFromJsonAsync<List<ProductResponseModel>>("products");
+            }
+            catch
+            {
+                products = new List<ProductResponseModel>();
+            }
 
-        }
+      }
+
       }
     
       <section id="info">				

@@ -2,6 +2,8 @@
 using DonutsGo.Application.Models.Products;
 using DonutsGo.DataAccess;
 using DonutsGo.DataAccess.Entities;
+using DonutsGo.Shared.Models;
+using DonutsGo.Shared.Models.Products;
 
 namespace DonutsGo.Application.Services
 {
@@ -19,18 +21,18 @@ namespace DonutsGo.Application.Services
             var products = this.databaseContext.Products.ToList();  
             
             var response =products.Select(x => new ProductResponseModel
-            {
+            { 
                   Id= x.Id,
                   Name= x.Name,
                   Price = x.Price,
-                  Type = x.Type
+                  Type =(ProductTypeResponseModel) x.Type
             }).ToList();
             
 
             return response;
         }
 
-        public ProductResponseModel CreateProduct(CreateProductModel model)
+        public ProductResponseModel CreateProduct(CreateProductRequestModel model)
         {
             if (string.IsNullOrEmpty(model.Name))
             {
@@ -54,7 +56,8 @@ namespace DonutsGo.Application.Services
 
             this.databaseContext.SaveChanges(); 
 
-            return ProductResponseModel.FromProduct(product);
+            return ProductMapper.FromProduct(product);
+
         }
 
 
@@ -85,7 +88,7 @@ namespace DonutsGo.Application.Services
             product.Price=model.Price;
             product.Type = model.Type;
 
-            return ProductResponseModel.FromProduct(product);
+            return ProductMapper.FromProduct(product);
         }
     }
 }

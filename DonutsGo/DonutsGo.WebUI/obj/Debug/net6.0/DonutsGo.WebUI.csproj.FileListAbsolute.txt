@@ -1654,3 +1654,11 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\ne
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Home.razor.rz.scp.css
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\Products3.razor.rz.scp.css
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\Products4.razor.rz.scp.css
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\DonutsGo.Shared.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\DonutsGo.Shared.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\DonutsGo.Shared.pdb.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\DonutsGo.Shared.dll.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\DonutsGo.Shared.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\DonutsGo.Shared.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\build-gz\lPXZ+nyq.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\build-gz\CZO8zafz.gz

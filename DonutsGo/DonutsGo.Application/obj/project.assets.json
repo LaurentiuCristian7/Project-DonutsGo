@@ -751,6 +751,16 @@
         "runtime": {
           "bin/placeholder/DonutsGo.DataAccess.dll": {}
         }
+      },
+      "DonutsGo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DonutsGo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DonutsGo.Shared.dll": {}
+        }
       }
     }
   },
@@ -1921,11 +1931,17 @@
       "type": "project",
       "path": "../DonutsGo.DataAccess/DonutsGo.DataAccess.csproj",
       "msbuildProject": "../DonutsGo.DataAccess/DonutsGo.DataAccess.csproj"
+    },
+    "DonutsGo.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DonutsGo.Shared/DonutsGo.Shared.csproj",
+      "msbuildProject": "../DonutsGo.Shared/DonutsGo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DonutsGo.DataAccess >= 1.0.0"
+      "DonutsGo.DataAccess >= 1.0.0",
+      "DonutsGo.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1963,6 +1979,9 @@
           "projectReferences": {
             "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj": {
               "projectPath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj"
+            },
+            "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Shared\\DonutsGo.Shared.csproj": {
+              "projectPath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Shared\\DonutsGo.Shared.csproj"
             }
           }
         }

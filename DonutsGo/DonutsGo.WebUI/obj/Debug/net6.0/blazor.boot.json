@@ -196,13 +196,15 @@
       "mscorlib.dll": "sha256-y7DhCb2PceYWjnHWsZokJrty551Q9XISH3Z72o6RdwI=",
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
-      "DonutsGo.WebUI.dll": "sha256-iLyk6gIiN0NIxdACEJpSR73AGn39qKOsjcFY9CjfODs="
+      "DonutsGo.Shared.dll": "sha256-u4W4XnUMYvd8S5UCz3LSzFcX5WZz5CZ46LyV+ddebNM=",
+      "DonutsGo.WebUI.dll": "sha256-XrD+jI9dhn55l2nAthpC0QK+nCMGZ80ToVteW7vMaDs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "DonutsGo.WebUI.pdb": "sha256-ybAohq41zxww2OFUGV\/wGFwKAhe7n45HUUrft+Pq0Q8="
+      "DonutsGo.Shared.pdb": "sha256-eVROmO029AZSZubZngFSpjpOyVtfK+1o\/Y\/Pn5++nVQ=",
+      "DonutsGo.WebUI.pdb": "sha256-GRrN9GA2rv0jLu7v1jIq2WucIHjFL3D\/Fa9hhIiZW7o="
     },
     "runtime": {
       "dotnet.6.0.15.6w3oj0iocp.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",

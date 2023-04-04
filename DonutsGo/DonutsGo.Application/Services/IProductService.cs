@@ -1,4 +1,6 @@
 ﻿using DonutsGo.Application.Models.Products;
+using DonutsGo.Shared.Models;
+using DonutsGo.Shared.Models.Products;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +11,10 @@ namespace DonutsGo.Application.Services
 {
     public interface IProductService
     {
-        public List<ProductResponseModel> GetAllProducts();
+         List<ProductResponseModel> GetAllProducts();
 
-        public ProductResponseModel CreateProduct(CreateProductModel model);
+         ProductResponseModel CreateProduct(CreateProductRequestModel model);
 
-        public ProductResponseModel UpdateProduct(Guid id, UpdateProductModel model);
+         ProductResponseModel UpdateProduct(Guid id, UpdateProductModel model);
     }
 }

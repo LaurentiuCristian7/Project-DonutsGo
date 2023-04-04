@@ -861,11 +861,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-39jsoYaGr1o7Bm\/unSRSwcw0nccxYvmn+QJYiZjOPFE=",
+      "hash": "sha256-79aXU3FiZny+yrFUYUpE\/VEMB+8Xq8uunfz\/3m1XQ1Y=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
     {
-      "hash": "sha256-vEjFdxEaPPS2eMdVY2tNukjNRbphtfb8zL3v2qIcgXI=",
+      "hash": "sha256-T0d7MfmLSLSqqXuAffocyKpSODI4HnGGGQUYY5u9fyg=",
       "url": "_framework\/DonutsGo.WebUI.pdb"
     },
     {
@@ -873,9 +873,17 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-xgqIIIMm3cDj\/3LLIGxTcS9901K3XJJlguCPFwt+zno=",
+      "hash": "sha256-q+Rgctzq6TQ0r8pbyP1m2a4Q+ifeaQAj9\/bqXBy2PAg=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-u4W4XnUMYvd8S5UCz3LSzFcX5WZz5CZ46LyV+ddebNM=",
+      "url": "_framework\/DonutsGo.Shared.dll"
+    },
+    {
+      "hash": "sha256-eVROmO029AZSZubZngFSpjpOyVtfK+1o\/Y\/Pn5++nVQ=",
+      "url": "_framework\/DonutsGo.Shared.pdb"
     }
   ],
-  "version": "y+7sz\/EQ"
+  "version": "sJKFSSIU"
 };

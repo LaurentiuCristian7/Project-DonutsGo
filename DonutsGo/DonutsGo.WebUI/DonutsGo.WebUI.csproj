@@ -32,4 +32,8 @@
     <None Include="Pages\Products\Products.razor" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DonutsGo.Shared\DonutsGo.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

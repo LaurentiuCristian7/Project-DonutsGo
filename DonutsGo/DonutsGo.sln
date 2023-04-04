@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DonutsGo.Application", "Don
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DonutsGo.WebUI", "DonutsGo.WebUI\DonutsGo.WebUI.csproj", "{D07349C0-6789-4E47-9570-CCC4C4E8E38E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonutsGo.Shared", "DonutsGo.Shared\DonutsGo.Shared.csproj", "{ECA0974A-3CB2-49C0-96F2-873A4BC40340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D07349C0-6789-4E47-9570-CCC4C4E8E38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07349C0-6789-4E47-9570-CCC4C4E8E38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07349C0-6789-4E47-9570-CCC4C4E8E38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA0974A-3CB2-49C0-96F2-873A4BC40340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA0974A-3CB2-49C0-96F2-873A4BC40340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA0974A-3CB2-49C0-96F2-873A4BC40340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA0974A-3CB2-49C0-96F2-873A4BC40340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DonutsGo.Application\DonutsGo.Application.csproj" />
+    <ProjectReference Include="..\DonutsGo.WebUI\DonutsGo.WebUI.csproj" />
   </ItemGroup>
 
 </Project>

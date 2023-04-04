@@ -18,6 +18,10 @@ using System.Threading.Tasks;
             builder .Property(x => x.Name)
                 .IsRequired()
                 .HasMaxLength(100);
+
+            builder.Property(x => x.Price)
+               .HasDefaultValue(0)
+               .IsRequired();
         }
     }
     

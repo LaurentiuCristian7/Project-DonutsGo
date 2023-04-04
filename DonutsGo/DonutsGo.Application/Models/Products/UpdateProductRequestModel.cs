@@ -2,7 +2,7 @@
 
 namespace DonutsGo.Application.Models.Products;
 
-public class UpdateProductModel
+public class UpdateProductRequestModel
 {
     public string Name { get; set; }
 

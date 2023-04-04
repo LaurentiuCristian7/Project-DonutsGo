@@ -63,7 +63,7 @@ namespace DonutsGo.Application.Services
 
 
 
-        public ProductResponseModel UpdateProduct( Guid id ,UpdateProductModel model)
+        public ProductResponseModel UpdateProduct( Guid id ,UpdateProductRequestModel model)
         {
 
             if (string.IsNullOrEmpty(model.Name))

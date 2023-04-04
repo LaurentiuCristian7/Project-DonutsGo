@@ -181,7 +181,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\DonutsGo.WebUI.csproj": {
+                "projectPath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\DonutsGo.WebUI.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

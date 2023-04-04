@@ -15,4 +15,8 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DonutsGo.WebUI\DonutsGo.WebUI.csproj" />
+  </ItemGroup>
+
 </Project>

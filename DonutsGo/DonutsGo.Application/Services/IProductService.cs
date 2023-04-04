@@ -14,7 +14,5 @@ namespace DonutsGo.Application.Services
         public ProductResponseModel CreateProduct(CreateProductModel model);
 
         public ProductResponseModel UpdateProduct(Guid id, UpdateProductModel model);
-
-
     }
 }

@@ -23,6 +23,7 @@ namespace DonutsGo.API.Controllers
 
             return Ok(users);
         }
+
         [HttpGet("{id}")]  
         public IActionResult GetUserById(Guid id)
         {

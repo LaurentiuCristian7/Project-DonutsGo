@@ -13,7 +13,5 @@ namespace DonutsGo.Application.Exceptions
 
         }
         
-
-        
     }
 }

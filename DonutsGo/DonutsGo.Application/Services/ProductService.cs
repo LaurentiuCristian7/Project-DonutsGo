@@ -16,10 +16,6 @@ namespace DonutsGo.Application.Services
 
         public List<ProductResponseModel>GetAllProducts()
         {
-
-
-          
-
             var products = this.databaseContext.Products.ToList();  
             
             var response =products.Select(x => new ProductResponseModel
@@ -58,16 +54,6 @@ namespace DonutsGo.Application.Services
 
             this.databaseContext.SaveChanges(); 
 
-            //Storage.Products.Add(product);
-
-          //  return new ProductResponseModel
-          //  {
-          //      Id =product.Id,
-          //      Name = product.Name,
-           //     Price=product.Price,
-           //     Type=product.Type 
-          //  };
-
             return ProductResponseModel.FromProduct(product);
         }
 
@@ -95,20 +81,9 @@ namespace DonutsGo.Application.Services
                 throw new NotFoundException(string.Empty);
             }
 
-
-
-
             product.Name=model.Name;
             product.Price=model.Price;
             product.Type = model.Type;
-
-          // // return new ProductResponseModel
-          //  {
-          //      Id =product.Id,
-           //     Name = product.Name,
-          //      Price=product.Price,
-          //      Type=product.Type
-          //  };
 
             return ProductResponseModel.FromProduct(product);
         }

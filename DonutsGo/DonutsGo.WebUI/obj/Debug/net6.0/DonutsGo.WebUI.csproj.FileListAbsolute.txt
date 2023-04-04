@@ -1650,3 +1650,5 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\ne
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Components\GreetingInfo.razor.rz.scp.css
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\Products.razor.rz.scp.css
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\Products2.razor.rz.scp.css
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Home.razor.rz.scp.css

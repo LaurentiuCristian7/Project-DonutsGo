@@ -1,8 +1,46 @@
 ﻿ @page "/products"
  @inject HttpClient Http
 
+
+
+  <div class="context"></div>
+
+
+        <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+      		
+	  	  
+ <nav id="main-nav">
+
+   <h1 class="logo">DonutsGo<br>
+ </h1>
+  
+  <ul>
+    <li><a class="active" href="#Log In">Log In</a></li>
+    <li><a href="home">Home</a></li>
+    <li><a href="">Products</a>
+      <ul>
+        <li><a href="products">Donuts</a></li>
+        <li><a href="waffles">Waffles</a></li>
+        <li><a href="#OSETROVNA">Drinks</a></li>
+      </ul>
+    </li>
+    <li><a href="#DOKUMENTY">Gift Ideas</a></li>
+  </ul>
+	</nav
+    <br>
+    <br
+    <br>
+    <br>
+
  
- <h3>Products</h3>
+ <h3>Donuts</h3>
 
    @if (products.Count==0) 
    {      
@@ -60,3 +98,48 @@
 
     }
 }
+    
+ <section id="info">				
+ <h3>BE NUTS. BE DONUTS.</h3>            	    
+		<footer>
+			<div class="contenedor">
+				<p class="copy"> &copy  2023 DonutsGo.ro</p>
+			</div>
+		</footer>
+
+	 
+
+ 
+<div class="float-sm">
+  <div class="fl-fl float-fb">
+    <i class="fa fa-facebook"></i>
+    <a href="https://www.facebook.com/" target="https://www.facebook.com/"> Facebook</a>
+  </div>
+  <div class="fl-fl float-tw">
+    <i class="fa fa-twitter"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-gp">
+    <i class="fa fa-google-plus"></i>
+    <a href="" target="_blank">Recommend us!</a>
+  </div>
+  <div class="fl-fl float-rs">
+    <i class="fa fa-rss"></i>
+    <a href="" target="_blank">Follow via RSS</a>
+  </div>
+  <div class="fl-fl float-ig">
+    <i class="fa fa-instagram"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-pn">
+    <i class="fa fa-pinterest"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+</div>
+
+
+
+
+  </section>
+ 
+	  </div>

@@ -85,6 +85,10 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
+      "hash": "sha256-w8NOaPacgkRLhqTrR49r6IeFOG+V6Q5rN9PODZLG3PI=",
+      "url": "_framework\/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "hash": "sha256-z2\/9XxGkcFT0vYhMAfRLEHxEQxv73cZLBjj1\/FgZaEw=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.dll"
     },
@@ -95,6 +99,10 @@
     {
       "hash": "sha256-opOJOb0zXYibv9PpTTcsATQZb0RuCdJVD15RD5UMPzU=",
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
+    },
+    {
+      "hash": "sha256-8OeZP91NBAe3Dn+41MFLdi7nSfGKOygc4mTEGMaCh38=",
+      "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "hash": "sha256-QlVC3m\/A3vUlQld74FEVJR0WcCqNemydIZu1W5IQ3J4=",
@@ -861,19 +869,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-rhGuEMyp3709x8+RlpMz5g5bAxp2IOB9bgOy3LXUwsM=",
+      "hash": "sha256-WrtW\/7K2aMpv7KEy\/8eALgoUMgvvzdXyxa75P1dl6ls=",
       "url": "_framework\/DonutsGo.Shared.dll"
     },
     {
-      "hash": "sha256-7qKHTmRiE4N4mZRYndF1mrfOZpo4bT6mkFze5fRDWIw=",
+      "hash": "sha256-ES5yMWgwd2duxOv7NyEkhW3trNq9huevwgO+Agifzrg=",
       "url": "_framework\/DonutsGo.Shared.pdb"
     },
     {
-      "hash": "sha256-6KYjHjTJy1\/o53pzCxoZz9slpy0N8bD\/R0oCAH6Ed38=",
+      "hash": "sha256-TJ+RoC+k2yM0zhu43cX\/68dDSEHWPB8Lz38VHz9s7js=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
     {
-      "hash": "sha256-5N+hJb3RmA2GBUYaRitoodLJVy\/6NZ7qk0FhnoOHJk8=",
+      "hash": "sha256-JFkvTRLKpPr+w5lD3FQXnOjqjylz6t\/X4HtxYMhGhko=",
       "url": "_framework\/DonutsGo.WebUI.pdb"
     },
     {
@@ -881,9 +889,13 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-X0EwNfwoPiew4UFPEd814t9gG57q0e\/wRafN+GqMV4E=",
+      "hash": "sha256-lMJWSTIfSQjbQ62qH64oKXDiAy9FILUXweNj8p1+V3E=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-Wn02IHGVHYWQvpPDhVA\/vA\/ICx8Xfh4I6vjapn2Wbxk=",
+      "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "usBhDOPS"
+  "version": "YQU6kNjb"
 };

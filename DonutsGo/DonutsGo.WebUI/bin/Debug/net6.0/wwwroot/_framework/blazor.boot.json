@@ -9,9 +9,11 @@
     "assembly": {
       "Microsoft.AspNetCore.Authorization.dll": "sha256-LEifCMQUDHt40J+ECWfFMJK2AZljyjnWM2stuN5ehuY=",
       "Microsoft.AspNetCore.Components.dll": "sha256-HgNE5++dfbClUBhavjKAlchkwUWokx7u\/25V+JYbW70=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-w8NOaPacgkRLhqTrR49r6IeFOG+V6Q5rN9PODZLG3PI=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-z2\/9XxGkcFT0vYhMAfRLEHxEQxv73cZLBjj1\/FgZaEw=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-76QETUrQ102jd0D9hTcSHe3evQqWQnMrb23CiAcZZBM=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-opOJOb0zXYibv9PpTTcsATQZb0RuCdJVD15RD5UMPzU=",
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": "sha256-8OeZP91NBAe3Dn+41MFLdi7nSfGKOygc4mTEGMaCh38=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-QlVC3m\/A3vUlQld74FEVJR0WcCqNemydIZu1W5IQ3J4=",
       "Microsoft.Extensions.Configuration.dll": "sha256-c8yYhfrOBLEnOBglLTu9peXSbJDwFpuT4UQiXSv28Og=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-5Otet+KKVUjNkE\/hqcNWmt75H1K2VNuKPFagpRd6Ces=",
@@ -196,15 +198,15 @@
       "mscorlib.dll": "sha256-y7DhCb2PceYWjnHWsZokJrty551Q9XISH3Z72o6RdwI=",
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
-      "DonutsGo.Shared.dll": "sha256-u4W4XnUMYvd8S5UCz3LSzFcX5WZz5CZ46LyV+ddebNM=",
-      "DonutsGo.WebUI.dll": "sha256-XrD+jI9dhn55l2nAthpC0QK+nCMGZ80ToVteW7vMaDs="
+      "DonutsGo.Shared.dll": "sha256-WrtW\/7K2aMpv7KEy\/8eALgoUMgvvzdXyxa75P1dl6ls=",
+      "DonutsGo.WebUI.dll": "sha256-Kgv9uNTpRQKr3z\/2ymSE8ZGnX+y0hiFb2ihkWi294lE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "DonutsGo.Shared.pdb": "sha256-eVROmO029AZSZubZngFSpjpOyVtfK+1o\/Y\/Pn5++nVQ=",
-      "DonutsGo.WebUI.pdb": "sha256-GRrN9GA2rv0jLu7v1jIq2WucIHjFL3D\/Fa9hhIiZW7o="
+      "DonutsGo.Shared.pdb": "sha256-ES5yMWgwd2duxOv7NyEkhW3trNq9huevwgO+Agifzrg=",
+      "DonutsGo.WebUI.pdb": "sha256-413wqRJn6EE6O18NEFHXTRpdeedOtcc+7RN6TIzOf+w="
     },
     "runtime": {
       "dotnet.6.0.15.6w3oj0iocp.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",

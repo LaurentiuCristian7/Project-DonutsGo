@@ -156,3 +156,6 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.WebUI.dll
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.WebUI.pdb
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6.0\DonutsGo.Shared.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll

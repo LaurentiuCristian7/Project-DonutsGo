@@ -77,7 +77,7 @@ namespace DonutsGo.Application.Services
             }
 
 
-            var product = Storage.Products.FirstOrDefault(x => x.Id == id);
+            var product = databaseContext.Products.FirstOrDefault(x => x.Id == id);
 
             if (product == null)
             {
@@ -88,7 +88,25 @@ namespace DonutsGo.Application.Services
             product.Price=model.Price;
             product.Type = model.Type;
 
+            databaseContext.Products.Update(product);
+            databaseContext.SaveChanges();
+
             return ProductMapper.FromProduct(product);
+        }
+
+        public void DeleteProductById(Guid productId)
+        {
+            var product = databaseContext.Products.FirstOrDefault(x => x.Id == productId);
+
+            if (product == null)
+            {
+                throw new NotFoundException(string.Empty);
+            }
+
+            databaseContext.Products.Remove(product);
+
+            databaseContext.SaveChanges();  
+
         }
     }
 }

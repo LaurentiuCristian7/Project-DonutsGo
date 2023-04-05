@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "1B/cofDKD7oCL3LUCs0+uboQHeV0yAld1xc5cXQJVo4NYpYA6hTtGccDnoDIeirLvAJJynyv4zzaOScHcF35IQ==",
+  "dgSpecHash": "WlFd7JfR7GYTzxwV6oSO5IjTWZk83kLghW6IYG+T2jWqmZ4kO5IOv8/RF/27L96vwebHbPSRoaBWW/v3nDykDg==",
   "success": true,
   "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.14\\microsoft.aspnetcore.components.analyzers.6.0.14.nupkg.sha512",
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.14\\microsoft.aspnetcore.components.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.14\\microsoft.aspnetcore.components.forms.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.14\\microsoft.aspnetcore.components.web.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.14\\microsoft.aspnetcore.components.webassembly.6.0.14.nupkg.sha512",
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.14\\microsoft.aspnetcore.components.webassembly.authentication.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.14\\microsoft.aspnetcore.metadata.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

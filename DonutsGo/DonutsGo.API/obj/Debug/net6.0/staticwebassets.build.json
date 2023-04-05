@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AtF2F9EdKA/h7+oikJAuQpcW1DU42ipSe9gcFa3U1CI=",
+  "Hash": "F5cYYQ42mbZUKZx0YpnHlKVincsTMEbMlF8WJGaZuUo=",
   "Source": "DonutsGo.API",
   "BasePath": "_content/DonutsGo.API",
   "Mode": "Default",
@@ -28,6 +28,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.14\\staticwebassets\\AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.14\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.14\\staticwebassets\\AuthenticationService.js"
+    },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "DonutsGo.WebUI",
@@ -267,6 +284,23 @@
       "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "SourceId": "DonutsGo.WebUI",
       "SourceType": "Project",
@@ -316,6 +350,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -4143,6 +4194,23 @@
       "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.dll"
     },
     {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\ByOTGskZ.gz",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\cadwMOfX.gz",
       "SourceId": "DonutsGo.WebUI",
       "SourceType": "Project",
@@ -6249,6 +6317,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.dll"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\uL+fbTxr.gz",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\va3n2mDh.gz",

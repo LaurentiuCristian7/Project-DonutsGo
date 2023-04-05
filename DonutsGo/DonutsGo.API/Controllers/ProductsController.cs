@@ -23,13 +23,13 @@ namespace DonutsGo.API.Controllers
         [HttpGet]
         public IActionResult GetProducts()
         {
-            return Ok(this.productService.GetAllProducts());
+            return Ok(productService.GetAllProducts());
         }
 
         [HttpGet("{id}")]
         public IActionResult GetProductById(Guid id)
         {
-            var  product = Storage.Products.FirstOrDefault(x => x.Id == id);
+            var  product =.Products.FirstOrDefault(x => x.Id == id);
 
             return Ok(product);
         }
@@ -67,9 +67,8 @@ namespace DonutsGo.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteProduct(Guid id)
         {
-            var product = Storage.Products.FirstOrDefault(x => x.Id == id);
             
-            Storage.Products.Remove(product);
+           this.productService.DeleteProductById(id);
 
             return NoContent();
         }

@@ -1662,3 +1662,11 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\ne
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\DonutsGo.Shared.pdb
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\build-gz\lPXZ+nyq.gz
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\build-gz\CZO8zafz.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\build-gz\uL+fbTxr.gz
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\build-gz\ByOTGskZ.gz

@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3c8iuVUaJirMnjR0x91ZsSqhUfW9Xhngq1r3ErktyIv59dp+2OqWYslvYqTxtW3vmD7QW+z97jMRrSpISdDOQ==",
+  "dgSpecHash": "mis1A8Rc15FVFevG+0lAlyTfJ4wAB5o1eHeZo0jpwu9n693ATzrUyY8nldvw1NCDqyUKVj7peife6x2Gl9giKw==",
   "success": true,
   "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\DonutsGo.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.14\\microsoft.aspnetcore.components.analyzers.6.0.14.nupkg.sha512",
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.14\\microsoft.aspnetcore.components.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.14\\microsoft.aspnetcore.components.forms.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.14\\microsoft.aspnetcore.components.web.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.14\\microsoft.aspnetcore.components.webassembly.6.0.14.nupkg.sha512",
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.14\\microsoft.aspnetcore.components.webassembly.authentication.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\6.0.14\\microsoft.aspnetcore.components.webassembly.devserver.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.14\\microsoft.aspnetcore.metadata.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",

@@ -42,6 +42,18 @@
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/6.0.14": {},
+      "Microsoft.AspNetCore.Components.Authorization/6.0.14": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.14",
+          "Microsoft.AspNetCore.Components": "6.0.14"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1423.7403"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/6.0.14": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.14"
@@ -78,6 +90,18 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "assemblyVersion": "6.0.14.0",
+            "fileVersion": "6.0.1423.7403"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.14": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.14",
+          "Microsoft.AspNetCore.Components.Web": "6.0.14"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {
             "assemblyVersion": "6.0.14.0",
             "fileVersion": "6.0.1423.7403"
           }
@@ -664,7 +688,8 @@
       "DonutsGo.WebUI/1.0.0": {
         "dependencies": {
           "DonutsGo.Shared": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.14"
+          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.14",
+          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "6.0.14"
         },
         "runtime": {
           "DonutsGo.WebUI.dll": {}
@@ -699,6 +724,13 @@
       "path": "microsoft.aspnetcore.components.analyzers/6.0.14",
       "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.14.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Components.Authorization/6.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BcLX8ATLzpsVxGEui2CuwXAaoB5VamZCXHUptzq3sVE+WV78aelOQM1a+qC3V52+nGvS+kk6tLJwPOh4qR0fCg==",
+      "path": "microsoft.aspnetcore.components.authorization/6.0.14",
+      "hashPath": "microsoft.aspnetcore.components.authorization.6.0.14.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Components.Forms/6.0.14": {
       "type": "package",
       "serviceable": true,
@@ -719,6 +751,13 @@
       "sha512": "sha512-7dhf5ZGPpPMAcltc9hcKN6sajVE99A+RAMS/lk3xnoyKKS0fh4Nwtuao82SrHBws9hMVSm76RXQjDqcnHSOhlg==",
       "path": "microsoft.aspnetcore.components.webassembly/6.0.14",
       "hashPath": "microsoft.aspnetcore.components.webassembly.6.0.14.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ldYJDRv/dURcmclNdqVEfJ2iK+0FGEWpcGuCXTOgToAyjQEydACUBfeTvVGZ1OuoRmWzD4wMmYI/mEwnskMoNQ==",
+      "path": "microsoft.aspnetcore.components.webassembly.authentication/6.0.14",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.authentication.6.0.14.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/6.0.14": {
       "type": "package",

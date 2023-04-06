@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fp20VA4jcjREDrgxzNhuO8wMPLY36/HH2wL8YggZgFrrAnxslC86xZvGYJkJJFk+AIbAu3r/9Dwj2uoj7iQMBA==",
+  "dgSpecHash": "dx8MBrGVrGKbbDfwjprHGIlGSX7rtFqnRj/9GhHIG56Fjv0jWvNcmflIbkeQAZJBHIZaqVbq5IMrXG0PdK7eSg==",
   "success": true,
   "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.Application\\DonutsGo.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.14\\microsoft.aspnetcore.components.analyzers.6.0.14.nupkg.sha512",

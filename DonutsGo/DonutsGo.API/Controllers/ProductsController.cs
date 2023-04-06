@@ -29,7 +29,7 @@ namespace DonutsGo.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetProductById(Guid id)
         {
-            var  product =.Products.FirstOrDefault(x => x.Id == id);
+            var  product =Products.FirstOrDefault(x => x.Id == id);
 
             return Ok(product);
         }

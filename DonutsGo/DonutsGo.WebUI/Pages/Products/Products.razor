@@ -2,8 +2,9 @@
  @inject HttpClient Http
  @inject NavigationManager NavManager
  @using DonutsGo.Shared.Models
-@using DonutsGo.Shared.Models.Products;
-
+ @using DonutsGo.Shared.Models.Products
+@using Microsoft.AspNetCore.Authorization;
+@* [Authorize]    *@
 
   <div class="context"></div>
       <div class="area" >
@@ -41,9 +42,8 @@
  
        <h1>Donuts</h1>
 
-       if()
 
-@if (products.Count==0) 
+@if (products.Count==0)                                                      
 {      
        <h3>No products founds...</h3>
 }  

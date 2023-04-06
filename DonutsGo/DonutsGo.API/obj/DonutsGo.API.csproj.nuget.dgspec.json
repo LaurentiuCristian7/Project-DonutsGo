@@ -342,6 +342,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.14, )"

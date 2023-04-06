@@ -1,4 +1,10 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject ILocalStorageService LocalStorage
+@inject NavigationManager NavManager
+@inject AuthenticationStateProvider AuthStateProvider
+@using Blazored.LocalStorage
+
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">DonutsGo.WebUI</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -7,6 +13,7 @@
     </div>
 </div>
 
+
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
@@ -14,39 +21,40 @@
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
         </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
-        <div class="nav-item px-4">
-            <NavLink class="nav-link" href="donuts">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Donuts
-            </NavLink>
-        </div>
-        <div class="nav-item px-5">
-            <NavLink class="nav-link" href="waffles">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Waffles
-            </NavLink>
-        </div>
-        <div class="nav-item px-6">
-            <NavLink class="nav-link" href="drinks">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Drinks
-            </NavLink>
-        </div>
-        <div class="nav-item px-7">
-            <NavLink class="nav-link" href="gift ideas">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Gift Ideas
-            </NavLink>
-
-        </div>
+        <AuthorizeView>
+            <NotAuthorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="login">
+                        <span class="oi oi-account-login" aria-hidden="true"></span> Login
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="register">
+                        <span class="oi oi-account-login" aria-hidden="true"></span> Register
+                    </NavLink>
+                </div>
+            </NotAuthorized>
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="products">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> Products
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="profile">
+                        <span class="oi oi-list-rich" aria-hidden="true"></span> My Profile
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" @onclick="HandleLogoutAsync">
+                        <span class="oi oi-account-login" aria-hidden="true"></span> Logout
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
     </nav>
 </div>
+
 
 @code {
     private bool collapseNavMenu = true;
@@ -56,5 +64,15 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+
+    private async Task HandleLogoutAsync()
+    {
+        await LocalStorage.RemoveItemAsync("token");
+
+        await AuthStateProvider.GetAuthenticationStateAsync();
+
+        NavManager.NavigateTo("login");
     }
 }

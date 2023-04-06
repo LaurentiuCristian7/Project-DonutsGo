@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WlFd7JfR7GYTzxwV6oSO5IjTWZk83kLghW6IYG+T2jWqmZ4kO5IOv8/RF/27L96vwebHbPSRoaBWW/v3nDykDg==",
+  "dgSpecHash": "vyu1zr7x9QzDR30QfQfZ1cvwgDCJSyXCqpRNLfQZbdH7ZohQCWgUYJtEamTu2zsQOuCbWPwr4Sm+oGRpwupyGA==",
   "success": true,
   "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.DataAccess\\DonutsGo.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.14\\microsoft.aspnetcore.components.analyzers.6.0.14.nupkg.sha512",

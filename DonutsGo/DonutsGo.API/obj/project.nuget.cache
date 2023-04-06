@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DNU2sx1nj98r960C5arYMu0Nv1eNhscul1i2dh0weU/a1BE5UR8pfmAEdccjShTS22OMlA7HdeBb1MJ+RwXHcw==",
+  "dgSpecHash": "qAdj3OaUR9gXX+rAjwbMDo2YRaNIbRnJ7xqjgguwXMqNBS1FHlbg3MC5znxnqkSVIAMWy0wMUb9UrnWOIB3p3g==",
   "success": true,
   "projectFilePath": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.API\\DonutsGo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Laurentiu\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.14\\microsoft.aspnetcore.authentication.jwtbearer.6.0.14.nupkg.sha512",
     "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",

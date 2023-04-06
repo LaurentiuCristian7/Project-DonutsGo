@@ -9,7 +9,6 @@
 
 <EditForm class="d-flex flex-column align-items-center " Model="@product" OnSubmit="HandleValidSubmit">
     <DataAnnotationsValidator/>
-    @*<ValidationSummary/> *@
     <div class="m-2">
         <label for="name">Name:</label>
         <InputText id ="name" @bind-Value="@product.Name"></InputText>

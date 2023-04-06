@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zkw8/OQ/VtK+Ba+xBzm/qWnW+8uVvbumAW29gC/Qtgs=",
+  "Hash": "JsVnkGgL+mv26hxHIOj9qPaUaCgWi6wPkJ9yO+vKp7c=",
   "Source": "DonutsGo.WebUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.14\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\blazored.localstorage\\4.3.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\DonutsGo.Shared.dll",
@@ -187,6 +204,23 @@
       "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "DonutsGo.WebUI",
       "SourceType": "Computed",
@@ -236,23 +270,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "DonutsGo.WebUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Laurentiu\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -4556,6 +4573,23 @@
       "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll"
     },
     {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\eHEz5Vi0.gz",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\build-gz\\EiHfHjNV.gz",
       "SourceId": "DonutsGo.WebUI",
       "SourceType": "Computed",
@@ -6987,40 +7021,6 @@
       "OriginalItemSpec": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DonutsGo.WebUI.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\service-worker-assets.js",
-      "SourceId": "DonutsGo.WebUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js"
-    },
-    {
-      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
-      "SourceId": "DonutsGo.WebUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
-    },
-    {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\service-worker\\service-worker.js",
       "SourceId": "DonutsGo.WebUI",
       "SourceType": "Computed",
@@ -7053,6 +7053,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service-worker.published.js"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker-assets.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerManifest",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker-assets.js",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerManifest",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\app.css",
@@ -7104,23 +7138,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "DonutsGo.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -7223,6 +7240,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "DonutsGo.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\Git Hub Proiect Donuts\\Proiect-Wantsome-\\DonutsGo\\DonutsGo.WebUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

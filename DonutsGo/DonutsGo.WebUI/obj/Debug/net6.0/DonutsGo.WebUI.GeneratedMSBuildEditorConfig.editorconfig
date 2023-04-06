@@ -20,16 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Products/CreateProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Shared/SurveyPrompt.razor]
@@ -39,14 +43,6 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Components/Greeting.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmVldGluZy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-fj5t9jymvg
-
-[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Components/GreetingInfo.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHcmVldGluZ0luZm8ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-717jolfkha
 
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==

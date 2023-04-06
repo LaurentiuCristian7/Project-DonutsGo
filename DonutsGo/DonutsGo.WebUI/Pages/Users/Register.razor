@@ -1,0 +1,26 @@
+﻿@page "/Register"
+@using DonutsGo.Shared.Users;
+
+<div class="register">
+    <div class="register-triangle"></div>
+
+    <h2 class="register-header">Register</h2>
+
+    <EditForm class="register-container" Model="@model" OnValidSubmit="HandleRegisterAsync">
+        <p><InputText @bind-Value="@model.Username" class="custom-input" placeholder="Username" /></p>
+        <p><InputText @bind-Value="@model.Email" class="custom-input" type="email" placeholder="Email" /></p>
+        <p><InputText @bind-Value="@model.Password" class="custom-input" type="password" placeholder="Password" /></p>
+        <p><InputText @bind-Value="@model.FirstName" class="custom-input" placeholder="First name" /></p>
+        <p><InputText @bind-Value="@model.LastName" class="custom-input" placeholder="Last name" /></p>
+        <p><button type="submit">Register</button></p>
+    </EditForm>
+</div>
+
+@code {
+    private CreateUserRequestModel model = new CreateUserRequestModel();
+
+    public async Task HandleRegisterAsync()
+    {
+        await Task.Delay(1000);
+    }
+}

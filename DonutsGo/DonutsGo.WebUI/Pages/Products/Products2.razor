@@ -1,6 +1,7 @@
 ﻿@page "/waffles"
+@using Microsoft.AspNetCore.Authorization;
 @inject HttpClient Http
-
+@*@attribute [Authorize] *@
 
 
       <div class="context"></div>
@@ -32,7 +33,7 @@
             </li>
                <li><a href="#DOKUMENTY">Gift Ideas</a></li>
       </ul>
-	     </nav
+	  </nav
       <br>
       <br>
       <br>

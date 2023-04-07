@@ -60,6 +60,18 @@ namespace DonutsGo.Application.Services
 
         }
 
+        public ProductResponseModel GetProductById(Guid productId)
+        {
+            var product=this.databaseContext.Products.FirstOrDefault(product => product.Id == productId);
+
+            if (product == null)
+            {
+               throw new NotFoundException(string.Empty);
+            }
+
+            return ProductMapper.FromProduct(product);
+        }
+
 
 
 

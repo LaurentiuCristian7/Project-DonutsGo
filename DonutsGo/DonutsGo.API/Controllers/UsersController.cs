@@ -28,14 +28,14 @@ namespace DonutsGo.API.Controllers
             return Ok(users);
         }
 
-        [HttpGet("{id}")]
-        [Authorize]
-        public IActionResult GetUserById(Guid id)
-        {
-            var user = Storage.Users.FirstOrDefault(x => x.Id == id);
+        //[HttpGet("{id}")]
+        //[Authorize]
+        //public IActionResult GetUserById(Guid id)
+        //{
+        //    var user = Storage.Users.FirstOrDefault(x => x.Id == id);
 
-            return Ok(user);   
-        }
+        //    return Ok(user);
+        //}
 
         [HttpPost]
         [AllowAnonymous]

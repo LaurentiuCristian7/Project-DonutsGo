@@ -3,7 +3,7 @@
  @inject NavigationManager NavManager
  @using DonutsGo.Shared.Models
  @using DonutsGo.Shared.Models.Products
-@using Microsoft.AspNetCore.Authorization;
+
 @* [Authorize]    *@
 
   <div class="context"></div>
@@ -35,26 +35,27 @@
           </ul>
       </nav>
       <br>
-      <br
+      <br>
       <br>
       <br>
 
  
        <h1>Donuts</h1>
 
+        
+            
+          @if (products.Count==0)                                                      
+          {      
+             <h3>No products founds...</h3>
+          } 
 
-@if (products.Count==0)                                                      
-{      
-       <h3>No products founds...</h3>
-}  
-
-else
-{
-      <div class="d-flex  flex-wrap justify-content-between">
+          else
+          {
+              <div class="d-flex  flex-wrap justify-content-between">
 
 
-@foreach (var product in products)
-{
+                 @foreach (var product in products)
+                 {
        
       <div class="card m-2" style="width: 35rem;">
             <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
@@ -64,11 +65,11 @@ else
                     <p>Type:@product.Type</p>
                 </div>
             </div>
-}
-      </div>
-}
-
-
+                 }
+              </div>
+          }
+       
+   
 
     @code {
         private List<ProductResponseModel> products = new List<ProductResponseModel>();
@@ -87,6 +88,7 @@ else
       }
 
       }
+    }
     
       <section id="info">				
         <h3>BE NUTS. BE DONUTS.</h3>            	    
@@ -112,22 +114,7 @@ else
              <i class="fa fa-google-plus"></i>
              <a href="" target="_blank">Recommend us!</a>
           </div>
-          <div class="fl-fl float-rs">
-             <i class="fa fa-rss"></i>
-             <a href="" target="_blank">Follow via RSS</a>
-          </div>
-          <div class="fl-fl float-ig">
-             <i class="fa fa-instagram"></i>
-             <a href="" target="_blank">Follow us!</a>
-          </div>
-          <div class="fl-fl float-pn">
-             <i class="fa fa-pinterest"></i>
-             <a href="" target="_blank">Follow us!</a>
-          </div>
       </div>
-
-
-
 
   </section>
  

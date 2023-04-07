@@ -1,73 +1,77 @@
 ﻿@page "/waffles"
+@using DonutsGo.Shared.Models.Products;
 @using Microsoft.AspNetCore.Authorization;
 @inject HttpClient Http
 @*@attribute [Authorize] *@
 
 
-      <div class="context"></div>
+<div class="context"></div>
+<div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 
+    <nav id="main-nav">
 
-      <div class="area" >
-      <ul class="circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-       </ul>
-       
-        <nav id="main-nav">
+        <h1 class="logo">DonutsGo<br>
 
-         <h1 class="logo">DonutsGo<br>
-              </h1>
-  
-       <ul>
+        </h1>
+
+        <ul>
             <li><a class="active" href="#Log In">Log In</a></li>
             <li><a href="home">Home</a></li>
-            <li><a href="">Products</a>
-      <ul>
-            <li><a href="donuts">Donuts</a></li>
-            <li><a href="waffles">Waffles</a></li>
-            <li><a href="#OSETROVNA">Drinks</a></li>
-      </ul>
+            <li>
+                <a href="">Products</a>
+                <ul>
+                    <li><a href="donuts">Donuts</a></li>
+                    <li><a href="waffles">Waffles</a></li>
+                    <li><a href="#OSETROVNA">Drinks</a></li>
+                </ul>
             </li>
-               <li><a href="#DOKUMENTY">Gift Ideas</a></li>
-      </ul>
-	  </nav
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <h3>Waffles</h3>
+            <li><a href="#DOKUMENTY">Gift Ideas</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br
+    <br>
+    <br>
 
 
-@if (products.Count==0)
-{
-      <h3>No products founds...</h3>
-}
-else
-{
-      <div class="d-flex  flex-wrap justify-content-between">
-@foreach (var product in products)
-{
+    <h1>Waffles</h1>
 
-            <div class="card m-2" style="width: 35rem;">
-                <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Instalove.jpg" alt="Card image cap">
-                <div>
-                    <p>Name: @product.Name</p>
-                    <p>Price: @product.Price</p>
-                    <p>Type:@product.Type</p>
+
+
+    @if (products.Count==0)
+    {
+        <h3>No products founds...</h3>
+    }
+
+    else
+    {
+        <div class="d-flex  flex-wrap justify-content-between">
+
+
+            @foreach (var product in products)
+            {
+
+                <div class="card m-2" style="width: 35rem;">
+                    <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
+                    <div>
+                        <p>Name: @product.Name</p>
+                        <p>Price: @product.Price</p>
+                        <p>Type:@product.Type</p>
+                    </div>
                 </div>
-            </div>
+            }
+        </div>
+    }
 
-}
-      </div>
 
 
-}
-
-   
     @code {
         private List<ProductResponseModel> products = new List<ProductResponseModel>();
 
@@ -81,71 +85,38 @@ else
             {
                 products = new List<ProductResponseModel>();
             }
+
         }
 
-      public class ProductResponseModel
-      {
-            public Guid Id { get; set; }
+    }
+    }
 
-            public string Name { get; set; }
-
-            public double Price { get; set; }
-
-            public ProductType Type { get; set; }
-      }
-
-      public enum ProductType
-      {
-            Donuts = 1,
-            Juice = 2,
-            Waffles = 3
-
-      }
-}
-    
-      <section id="info">				
-       <h3>BE NUTS. BE DONUTS.</h3>            	    
-		<footer>
-			<div class="contenedor">
-				<p class="copy"> &copy  2023 DonutsGo.ro</p>
-			</div>
-		</footer>
-
-	 
-
- 
-      <div class="float-sm">
-      <div class="fl-fl float-fb">
-         <i class="fa fa-facebook"></i>
-         <a href="https://www.facebook.com/" target="https://www.facebook.com/"> Facebook</a>
-      </div>
-      <div class="fl-fl float-tw">
-         <i class="fa fa-twitter"></i>
-         <a href="" target="_blank">Follow us!</a>
-      </div>
-      <div class="fl-fl float-gp">
-         <i class="fa fa-google-plus"></i>
-         <a href="" target="_blank">Recommend us!</a>
-      </div>
-      <div class="fl-fl float-rs">
-        <i class="fa fa-rss"></i>
-        <a href="" target="_blank">Follow via RSS</a>
-      </div>
-      <div class="fl-fl float-ig">
-        <i class="fa fa-instagram"></i>
-        <a href="" target="_blank">Follow us!</a>
-       </div>
-      <div class="fl-fl float-pn">
-         <i class="fa fa-pinterest"></i>
-         <a href="" target="_blank">Follow us!</a>
-       </div>
-      </div>
+    <section id="info">
+        <h3>BE NUTS. BE DONUTS.</h3>
+        <footer>
+            <div class="contenedor">
+                <p class="copy"> &copy  2023 DonutsGo.ro</p>
+            </div>
+        </footer>
 
 
 
 
-     </section>
- 
-	  </div>
+        <div class="float-sm">
+            <div class="fl-fl float-fb">
+                <i class="fa fa-facebook"></i>
+                <a href="https://www.facebook.com/" target="https://www.facebook.com/"> Facebook</a>
+            </div>
+            <div class="fl-fl float-tw">
+                <i class="fa fa-twitter"></i>
+                <a href="" target="_blank">Follow us!</a>
+            </div>
+            <div class="fl-fl float-gp">
+                <i class="fa fa-google-plus"></i>
+                <a href="" target="_blank">Recommend us!</a>
+            </div> 
+        </div>
 
+    </section>
 
+</div>

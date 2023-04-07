@@ -1,10 +1,10 @@
-﻿@page "/create-product"
+﻿@attribute [Route(ProductsRoutes.CreateProduct)]
 @using System.ComponentModel.DataAnnotations;
 @using DonutsGo.Shared.Models;
 @using DonutsGo.Shared.Models.Products;
 @using DonutsGo.WebUI.Validations;
 @inject HttpClient Http
-@using static DonutsGo.WebUI.Pages.Products.Products;
+
 
 
 <EditForm class="d-flex flex-column align-items-center " Model="@product" OnSubmit="HandleValidSubmit">
@@ -37,11 +37,11 @@
     <h4>@response</h4>
 
 @code {
-    private CreateProductModel product = new CreateProductModel();
+    private readonly CreateProductRequestModel product = new();
 
     private string response = string.Empty;
 
-    public class CreateProductModel
+    public class CreateProductRequestModel
     {
         [Required]
         [MinLength(3)]

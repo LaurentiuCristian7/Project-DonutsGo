@@ -7,7 +7,9 @@
 
         public const string Products = "products";
 
-        public const string Donuts = "donuts";
+        public const string Home = "home";
+
+
     }
 }
 

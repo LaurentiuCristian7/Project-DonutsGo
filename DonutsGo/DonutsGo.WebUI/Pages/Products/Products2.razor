@@ -1,8 +1,9 @@
 ﻿@page "/waffles"
+@inject NavigationManager NavManager
 @using DonutsGo.Shared.Models.Products;
 @using Microsoft.AspNetCore.Authorization;
 @inject HttpClient Http
-@*@attribute [Authorize] *@
+@attribute [Authorize]
 
 
 <div class="context"></div>

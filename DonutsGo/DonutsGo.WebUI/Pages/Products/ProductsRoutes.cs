@@ -6,6 +6,8 @@
         public const string CreateProduct = "create-product";
 
         public const string Products = "products";
+
+        public const string Donuts = "donuts";
     }
 }
 

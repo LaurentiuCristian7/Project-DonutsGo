@@ -1,0 +1,35 @@
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Application.deps.json
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Application.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Application.pdb
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.DataAccess.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.DataAccess.pdb
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.csproj.AssemblyReference.cache
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.AssemblyInfoInputs.cache
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.AssemblyInfo.cs
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.csproj.CoreCompileInputs.cache
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.csproj.CopyComplete
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\refint\DonutsGo.Application.dll
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.pdb
+D:\()Proiect Wantsome+\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\ref\DonutsGo.Application.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Application.deps.json
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Application.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Application.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.DataAccess.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.DataAccess.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.csproj.AssemblyReference.cache
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.AssemblyInfoInputs.cache
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.AssemblyInfo.cs
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.csproj.CoreCompileInputs.cache
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.csproj.CopyComplete
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\refint\DonutsGo.Application.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\DonutsGo.Application.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\obj\Debug\net6.0\ref\DonutsGo.Application.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Shared.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.Shared.pdb
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.WebUI.staticwebassets.runtime.json
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.WebUI.dll
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.Application\bin\Debug\net6.0\DonutsGo.WebUI.pdb

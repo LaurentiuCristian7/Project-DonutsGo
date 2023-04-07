@@ -1,0 +1,28 @@
+﻿@page "/Profile"
+@using DonutsGo.Shared.Users;
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthStateProvider
+
+@if (userInfo == null)
+{
+    <div>Loading...</div>
+}
+else
+{
+    <p>Username: @userInfo.Username</p>
+    <p>Email: @userInfo.Email</p>
+    <p>FirstName: @userInfo.FirstName</p>
+    <p>LastName: @userInfo.LastName</p>
+}
+
+@code {
+    private UserResponseModel userInfo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var currentUserId = authState.User.FindFirst(x => x.Type == "id")?.Value;
+        userInfo = await Http.GetFromJsonAsync<UserResponseModel>($"Users/{currentUserId}");
+    }
+
+}

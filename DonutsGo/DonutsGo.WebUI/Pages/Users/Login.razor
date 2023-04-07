@@ -1,0 +1,37 @@
+﻿@page "/Login"
+@using Blazored.LocalStorage;
+@using DonutsGo.Shared.Users;
+@using DonutsGo.WebUI.Pages.Products 
+@inject NavigationManager NavManager
+@inject HttpClient Http
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthStateProvider
+
+<div class="login">
+    <div class="login-triangle"></div>
+
+    <h2 class="login-header">Log In</h2>
+
+    <EditForm class="login-container" Model="@model" OnValidSubmit="HandleLoginAsync">
+        <p><InputText @bind-Value="@model.Username" class="custom-input" placeholder="Username" /></p>
+        <p><InputText @bind-Value="@model.Password" class="custom-input" type="password" placeholder="Password" /></p>
+        <p><button type="submit">Log In</button></p>
+    </EditForm>
+</div>
+
+@code {
+    private LoginRequestModel model = new LoginRequestModel();
+
+    public async Task HandleLoginAsync()
+    {
+        var result = await Http.PostAsJsonAsync("users/login", model);
+
+        var response = await result.Content.ReadFromJsonAsync<LoginResponseModel>();
+
+        await LocalStorage.SetItemAsync("token", response.Token);
+
+        await AuthStateProvider.GetAuthenticationStateAsync();
+
+        NavManager.NavigateTo(ProductsRoutes.Home);
+    }
+}

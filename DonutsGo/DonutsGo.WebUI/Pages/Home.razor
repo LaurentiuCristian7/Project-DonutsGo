@@ -1,6 +1,9 @@
 ﻿@page "/home"															 
 @inject NavigationManager NavManager
-
+@inject HttpClient Http
+@using DonutsGo.Shared.Models.Products
+@using Microsoft.AspNetCore.Authorization;
+@attribute [Authorize]
 <PageTitle>Home</PageTitle>
 
 

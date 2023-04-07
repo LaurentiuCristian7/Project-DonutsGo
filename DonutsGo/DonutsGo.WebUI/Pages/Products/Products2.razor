@@ -1,4 +1,4 @@
-﻿@page "/waffles"
+﻿@page "/donuts"
 @inject NavigationManager NavManager
 @using DonutsGo.Shared.Models.Products;
 @using Microsoft.AspNetCore.Authorization;
@@ -26,7 +26,7 @@
             <li><a class="active" href="#Log In">Log In</a></li>
             <li><a href="home">Home</a></li>
             <li>
-                <a href="">Products</a>
+                <a href="products">Products</a>
                 <ul>
                     <li><a href="donuts">Donuts</a></li>
                     <li><a href="waffles">Waffles</a></li>
@@ -40,11 +40,7 @@
     <br
     <br>
     <br>
-
-
-    <h1>Waffles</h1>
-
-
+    <h1>Donuts</h1>
 
     @if (products.Count==0)
     {
@@ -67,10 +63,19 @@
                         <p>Type:@product.Type</p>
                     </div>
                 </div>
+
+                <div class="card m-2" style="width: 35rem;">
+                    <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
+                    <div>
+                        <p>Name: @product.Name</p>
+                        <p>Price: @product.Price</p>
+                        <p>Type:@product.Type</p>
+                    </div>
+                </div>
+
             }
         </div>
     }
-
 
 
     @code {
@@ -96,7 +101,7 @@
         <h3>BE NUTS. BE DONUTS.</h3>
         <footer>
             <div class="contenedor">
-                <p class="copy"> &copy  2023 DonutsGo.ro</p>
+                <p class="copy"> &copy  2023 DonutsGo</p>
             </div>
         </footer>
 

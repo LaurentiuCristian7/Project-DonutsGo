@@ -56,7 +56,7 @@
     } 
     public async Task HandleValidSubmit()
     {
-        var response = await Http.PostAsJsonAsync("products", product);
+        var response = await Http.PostAsJsonAsync("product", product);
 
         this.response =  await response.Content.ReadAsStringAsync();
     }

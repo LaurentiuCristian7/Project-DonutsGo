@@ -1,4 +1,4 @@
-﻿ @page "/donuts"
+﻿ @page "/products"
 @inject HttpClient Http
 @inject NavigationManager NavManager
 @using DonutsGo.Shared.Models.Products
@@ -26,7 +26,7 @@
             <ul>
                <li><a class="active" href="#Log In">Log In</a></li>
                <li><a href="home">Home</a></li>
-               <li><a href="">Products</a>
+               <li><a href="products">Products</a>
             <ul>
                <li><a href="donuts">Donuts</a></li>
                <li><a href="waffles">Waffles</a></li>
@@ -40,40 +40,41 @@
       <br>
       <br>
       <br>
+      <br>
+      <br>
 
  
-       <h1>Donuts</h1>
-
-        
-            
-      @if (products.Count==0)                                                      
-      {      
-             <h3>No products founds...</h3>
-      } 
-
-      else
-      {
-              <div class="d-flex  flex-wrap justify-content-between">
+      <h1>Products</h1>
 
 
-                 @foreach (var product in products)
-                 {
-       
-      <div class="card m-2" style="width: 35rem;">
-            <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
-                <div>
-                    <p>Name: @product.Name</p>
-                    <p>Price: @product.Price</p>
-                    <p>Type:@product.Type</p>
+    @if (products.Count==0)
+    {
+        <h3>No products founds...</h3>
+    }
+
+
+    else
+    {
+        <div class="d-flex  flex-wrap justify-content-between">
+
+            @foreach (var product in products)
+            {
+
+                <div class="card m-2" style="width: 42rem;">
+                    <div>
+                        <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
+                        <p>Name: @product.Name</p>
+                        <p>Price: @product.Price</p>
+                        <p>Type:@product.Type</p>
+                    </div>
                 </div>
-            </div>
-                 }
-              </div>
-      } 
-       
-   
 
-@code {
+            }
+        </div>
+    }
+
+
+    @code {
      private List<ProductResponseModel> products = new List<ProductResponseModel>();
 
      protected override async Task OnInitializedAsync()
@@ -96,7 +97,7 @@
         <h3>BE NUTS. BE DONUTS.</h3>            	    
 		<footer>
 			<div class="contenedor">
-				<p class="copy"> &copy  2023 DonutsGo.ro</p>
+				<p class="copy"> &copy  2023 DonutsGo</p>
 			</div>
 		</footer>
 

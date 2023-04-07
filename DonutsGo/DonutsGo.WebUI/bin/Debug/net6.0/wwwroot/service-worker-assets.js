@@ -73,7 +73,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-HwKncQVERDbvnAnKQvFIUIGzNl7IX\/lDRP9RXfrafK4=",
+      "hash": "sha256-e+QKDvQmvD+YCC55WW9jAr9oxxSoaTO3Y3etgc+lPKc=",
       "url": "DonutsGo.WebUI.styles.css"
     },
     {
@@ -881,11 +881,11 @@
       "url": "_framework\/DonutsGo.Shared.pdb"
     },
     {
-      "hash": "sha256-O2lcSDERzdh8Q1Eg+x2JPB1vcWGX9D7ahtYb61Phj80=",
+      "hash": "sha256-+Wkih4JVFDeEhr+puuvABpxYt23t+FLD3h0C2BbATZo=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
     {
-      "hash": "sha256-iJFC+isQ3cA5iBs7rw06sy2mZwitloC1GAkmdsCBkxw=",
+      "hash": "sha256-FBkIZVD\/gozVI5yI\/e48Osza0ZXNMqrLJf\/LP90WGb0=",
       "url": "_framework\/DonutsGo.WebUI.pdb"
     },
     {
@@ -893,7 +893,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-z7ww8u3c5Z2qdttsMoCapgLDhCuN2RImEJSBF0zJmnU=",
+      "hash": "sha256-SCHO8LZDYgxX8KlRdGGhSNZlirU6IXLQEsbSPS48JlU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -901,5 +901,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "J8B4jqED"
+  "version": "BmOQF7GY"
 };

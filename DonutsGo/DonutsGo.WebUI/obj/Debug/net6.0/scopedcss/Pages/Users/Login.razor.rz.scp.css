@@ -1,0 +1,97 @@
+
+
+
+#main-nav[b-6nmspsvok3] {
+    width: 120%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.logo[b-6nmspsvok3] {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 2px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > ul[b-6nmspsvok3] {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    nav > ul > li[b-6nmspsvok3] {
+        display: block;
+        float: left;
+        width: 25%;
+        text-align: center;
+        line-height: 45px;
+        position: relative;
+    }
+
+        nav > ul > li > a[b-6nmspsvok3] {
+            display: block;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: .9em;
+            font-weight: bold;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+            nav > ul > li > a.active[b-6nmspsvok3] {
+                background-color: #0f8ac7;
+            }
+
+            nav > ul > li > a[b-6nmspsvok3]::after {
+                content: '';
+                height: 0px;
+                width: 100%;
+                position: absolute;
+                background-color: #fff;
+                bottom: 0;
+                left: 0;
+                transition: all ease-in-out .2s;
+            }
+
+            nav > ul > li > a:hover[b-6nmspsvok3] {
+                background-color: #0f8ac7;
+            }
+
+                nav > ul > li > a:hover[b-6nmspsvok3]::after {
+                    height: 3px;
+                }
+
+        nav > ul > li:hover > ul[b-6nmspsvok3] {
+            display: block;
+        }
+
+        nav > ul > li > ul[b-6nmspsvok3] {
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 40px;
+            left: 0%;
+            height: auto;
+            background-color: #0f8ac7;
+            display: none;
+        }
+
+            nav > ul > li > ul > li > a[b-6nmspsvok3] {
+                text-decoration: none;
+                color: #f7f7f7;
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+                nav > ul > li > ul > li > a:hover[b-6nmspsvok3] {
+                    background-color: #0f8ac7;
+                }

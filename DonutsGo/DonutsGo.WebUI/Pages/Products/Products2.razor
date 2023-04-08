@@ -6,24 +6,15 @@
 @attribute [Authorize]
 
 
-<div class="context"></div>
-<div class="area">
-    <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
 
     <nav id="main-nav">
 
-        <h1 class="logo">DonutsGo<br>
+    <h1 class="logo">DonutsGo<br>
 
-        </h1>
+     </h1>
 
-        <ul>
-            <li><a class="active" href="#Log In">Log In</a></li>
+    <ul>
+            <li><a class="active" href="login">Log In</a></li>
             <li><a href="home">Home</a></li>
             <li>
                 <a href="products">Products</a>
@@ -34,69 +25,141 @@
                 </ul>
             </li>
             <li><a href="#DOKUMENTY">Gift Ideas</a></li>
-        </ul>
+    </ul>
     </nav>
     <br>
     <br
     <br>
     <br>
-    <h1>Donuts</h1>
-
-    @if (products.Count==0)
-    {
-        <h3>No products founds...</h3>
-    }
-
-    else
-    {
-        <div class="d-flex  flex-wrap justify-content-between">
-
-
-            @foreach (var product in products)
-            {
-
-                <div class="card m-2" style="width: 35rem;">
-                    <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
-                    <div>
-                        <p>Name: @product.Name</p>
-                        <p>Price: @product.Price</p>
-                        <p>Type:@product.Type</p>
-                    </div>
+    <h3>Donuts</h3>
+   <br>
+<div class="main">
+    <ul class="cards">
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">DONUT CU KINDER BUENO</h2>
+                    <p class="card_text">O nebunie cu glazură de ciocolată albă, cârlionți de ciocolată neagră, napolitane Kinder Bueno™ și linii delicate de ciocolată cu lapte</p>
+                    <button class="btn card_btn">Read More</button>
                 </div>
+            </div>
+        </li>
 
-                <div class="card m-2" style="width: 35rem;">
-                    <img class="card-img-top" src="http://donuterie.ro/img/donuts/Donuterie-Donut-Cu-Kinder-Bueno.jpg" alt="Card image cap">
-                    <div>
-                        <p>Name: @product.Name</p>
-                        <p>Price: @product.Price</p>
-                        <p>Type:@product.Type</p>
-                    </div>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="http://donuterie.ro/img/donuts/Donuterie-Sour-Cherries.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">SOUR CHERRIES DONUT</h2>
+                    <p class="card_text">Donut tip sandwich, umplut cu gem acrișor de vișine, glazurat cu cremă de ciocolată albă și alune (Nocciolata) și topping de coacăze liofilizate</p>
                 </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="http://donuterie.ro/img/donuts/Donuterie-Raspberry-Madness.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">RASPBERRY MADNESS</h2>
+                    <p class="card_text">Donut tip sandwich, umplut cu gem delicat de zmeură, glazură de ciocolată neagră, presărată cu zmeură liofilizată</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="http://donuterie.ro/img/donuts/Donuterie-Juliette.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">JULIETTE</h2>
+                    <p class="card_text">Glazură ciocolată albă, fistic mărunțit, petale de trandafiri, umplutură din dulceață de zmeură</p>
+                </div>
+            </div>
+        </li>
 
-            }
-        </div>
-    }
-
-
-    @code {
-        private List<ProductResponseModel> products = new List<ProductResponseModel>();
-
-        protected override async Task OnInitializedAsync()
-        {
-            try
-            {
-                products = await Http.GetFromJsonAsync<List<ProductResponseModel>>("products");
-            }
-            catch
-            {
-                products = new List<ProductResponseModel>();
-            }
-
-        }
-
-    }
-    }
-
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="http://donuterie.ro/img/donuts/Donuterie-Kit-Kat-&-Kisses.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">KIT KAT™ & KISSES</h2>
+                    <p class="card_text">Donut cu glazură de ciocolată albă, bezele moi ca niște pupici, zmeură liofilizată și un baton KITKAT™</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+                <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Card Grid Layout</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+   <br>
+   <br>
+   <br>
     <section id="info">
         <h3>BE NUTS. BE DONUTS.</h3>
         <footer>
@@ -125,4 +188,3 @@
 
     </section>
 
-</div>

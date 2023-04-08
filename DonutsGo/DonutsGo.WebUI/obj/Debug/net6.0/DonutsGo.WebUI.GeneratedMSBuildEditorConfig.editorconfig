@@ -24,16 +24,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9naW4ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUHJvZmlsZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Shared/SurveyPrompt.razor]
@@ -67,6 +59,14 @@ build_metadata.AdditionalFiles.CssScope = b-ya81awstvp
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Products/Products4.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUHJvZHVjdHM0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-i21zi6o0fc
+
+[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6nmspsvok3
+
+[D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Pages/Users/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ohxsy6s1eb
 
 [D:/Git Hub Proiect Donuts/Proiect-Wantsome-/DonutsGo/DonutsGo.WebUI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

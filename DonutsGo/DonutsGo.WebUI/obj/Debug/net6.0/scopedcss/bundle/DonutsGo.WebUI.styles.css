@@ -2100,7 +2100,7 @@ header label[b-t3sr1efxua] {
     }
 
     .btn[b-t3sr1efxua] {
-        color: #ffffff;
+        color: rgb(0, 0, 0);
         padding: 0.8rem;
         font-size: 14px;
         text-transform: uppercase;
@@ -2866,7 +2866,7 @@ header label[b-l65rv62pmi] {
 
 
 
-    
+
 
     /* Design */
     *[b-l65rv62pmi],
@@ -2985,6 +2985,50 @@ header label[b-l65rv62pmi] {
         margin-top: 35px;
         text-align: center;
     }
+
+    }
+
+
+
+
+
+
+body[b-l65rv62pmi] {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    transition: all 725ms ease-in-out;
+}
+
+h1[b-l65rv62pmi] {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    
+}
+
+p[b-l65rv62pmi] {
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+button[b-l65rv62pmi] {
+    cursor: pointer;
+    appearance: none;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid navy;
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+
+
+
 /* /Pages/Products/Products3.razor.rz.scp.css */
 body[b-ya81awstvp] {
 }

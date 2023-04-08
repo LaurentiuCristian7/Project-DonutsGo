@@ -729,7 +729,7 @@ header label {
     }
 
     .btn {
-        color: #ffffff;
+        color: rgb(0, 0, 0);
         padding: 0.8rem;
         font-size: 14px;
         text-transform: uppercase;

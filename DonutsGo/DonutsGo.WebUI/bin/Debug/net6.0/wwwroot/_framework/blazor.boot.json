@@ -200,14 +200,14 @@
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
       "DonutsGo.Shared.dll": "sha256-NB66NDha\/p3Fcz8BMWuM0hYESYbvJQ\/YYk6xFRSIOZI=",
-      "DonutsGo.WebUI.dll": "sha256-707dtlfwa2gffMQHCj48ecYA8InksaVwG6kHXeyMbDQ="
+      "DonutsGo.WebUI.dll": "sha256-MrREN6It1jxRZynScTWcTyCHjvba5f7hOLLOirm5Vlg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "DonutsGo.Shared.pdb": "sha256-mOflub469VNDKKoRgVOGMXvGIoDQGwP7R61UvAuDxEo=",
-      "DonutsGo.WebUI.pdb": "sha256-O4Og+19pgGfwSwPJrygQehLxBn0HBNItMJYMpIUVo9M="
+      "DonutsGo.WebUI.pdb": "sha256-Ld17geNC3J6COdPahxpr6hmyhmKSLcSTgMe7qunA6cw="
     },
     "runtime": {
       "dotnet.6.0.15.6w3oj0iocp.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",

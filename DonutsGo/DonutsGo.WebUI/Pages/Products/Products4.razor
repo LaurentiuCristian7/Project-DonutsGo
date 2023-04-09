@@ -1,5 +1,207 @@
-﻿<h3>Products4</h3>
+﻿@page "/drinks"
+@inject NavigationManager NavManager
+@using DonutsGo.Shared.Models.Products;
+@using Microsoft.AspNetCore.Authorization;
+@inject HttpClient Http
+@attribute [Authorize]
 
-@code {
 
-}
+
+<nav id="main-nav">
+
+    <h1 class="logo">
+        DonutsGo<br>
+
+    </h1>
+
+    <ul>
+
+        <li><a class="active" href="login">Log In</a></li>
+        <li><a href="home">Home</a></li>
+        <li>
+            <a href="products">Products</a>
+            <ul>
+                <li><a href="donuts">Donuts</a></li>
+                <li><a href="waffles">Waffles</a></li>
+                <li><a href="drinks">Drinks</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="ordernow">Order Now</a>
+            <ul>
+                <li><a href="giftideas">Gift Ideas</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div class="polaroid">
+    <img src="https://img.freepik.com/premium-photo/variety-fruit-juices-fruit-smoothies_434193-3549.jpg?size=626&ext=jpg&ga=GA1.2.423289300.1679934264&semt=ais" alt="5 Terre" style="width:100%">
+    <div class="container">
+        <h1>DRINKS</h1>
+    </div>
+</div>
+
+<div class="main">
+    <ul class="cards">
+
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/qRPIHnAM-OtMwvUiqqrCGUDjb4jj-a3flaTZdR1ElxE/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Hot tea</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">6 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/0EX08a0PBwqBu3ICgK3mbId1naMNtmcL2SwOed_Ha5Q/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Pepsi Float</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">8 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/piKAHCAYESShiGcf9QeRI0u0q0otO4aa4uhjFnyIufU/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Vanilla Cookies & Cream Shake</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">11 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/1MGpCN5mDYEJ8ATcvFn8LZGa5Kh9D2n-nxF2VkzqfeY/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Chocolate Shake</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">10 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/iOO1lBu3wZjwxGmygNBy5uoiMLmM7gWxxMyiBtZAiIw/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Peanut Butter Shake</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">12 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/-d-fPRTkQEWa3epDri73v9wdd7zlEF7iFfzhV1F66RQ/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Creamsicle Float</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">14 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/XcaubV2iuswK6fyjIb5oSiDEzZYv12uLi8_8uOWICgg/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Orange Juice</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">9 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/rvnKjlPxlk70FHCPpbXqEb0c8a0JLREgLGph3l877YM/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Sparkling Water</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">6 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/D7N1EazS8pVJtfAW0eajPCjEaAXGVqrnXJ0sxrm4dLY/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Still Water</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">5 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/yDcPYsG98Yql6HrLJ077bczrN6lR5maLvD-neaxifzE/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">7 Up</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">8,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/4-TZJSHUpiRWfu5cXa-Yqybqsvnm0GgBsWDcCxCQVSs/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Mountain Dew</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">9 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://dynl.mktgcdn.com/p/GDTAmLyoChHePhHGqzmpYRf0KH25gsrb9yDPwQFH04A/1900x1069.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">Diet Pepsi</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">10 ron</a></span>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+</div>
+
+<br>
+<br>
+<br>
+<section id="info">
+    <h3>BE NUTS. BE DONUTS.</h3>
+    <p1>
+        DonutsGo is a place for friends and their follies, it's the sweetness next to coffee, the good side of a beginning, middle and end of the day, reason for posting, Insta, snap and selfie. Donuterie donuterie donuts are like you: beautifully bred, sweet, with different toppings and of different shapes. Choose which one you like and make a surprise to your loved ones. Or not!
+
+    </p1>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy"> &copy  2023 DonutsGo</p>
+        </div>
+    </footer>
+
+
+
+
+    <div class="float-sm">
+        <div class="fl-fl float-fb">
+            <i class="fa fa-facebook"></i>
+            <a href="https://www.facebook.com/" target="https://www.facebook.com/"> Facebook</a>
+        </div>
+        <div class="fl-fl float-tw">
+            <i class="fa fa-twitter"></i>
+            <a href="" target="_blank">Follow us!</a>
+        </div>
+        <div class="fl-fl float-gp">
+            <i class="fa fa-google-plus"></i>
+            <a href="" target="_blank">Recommend us!</a>
+        </div>
+    </div>
+
+</section>
+

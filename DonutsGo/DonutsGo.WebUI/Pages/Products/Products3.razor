@@ -1,5 +1,213 @@
-﻿<h3>Products3</h3>
+﻿@page "/waffles"
+@inject NavigationManager NavManager
+@using DonutsGo.Shared.Models.Products;
+@using Microsoft.AspNetCore.Authorization;
+@inject HttpClient Http
+@attribute [Authorize]
 
-@code {
 
-}
+
+<nav id="main-nav">
+
+    <h1 class="logo">
+        DonutsGo<br>
+
+    </h1>
+
+    <ul>
+
+               <li><a class="active" href="login">Log In</a></li>
+               <li><a href="home">Home</a></li>
+               <li><a href="products">Products</a>
+           <ul>
+               <li><a href="donuts">Donuts</a></li>
+               <li><a href="waffles">Waffles</a></li>
+               <li><a href="drinks">Drinks</a></li>
+           </ul>
+               </li>
+           
+               <li><a href="ordernow">Order Now</a>
+             <ul>
+               <li><a href="giftideas">Gift Ideas</a></li>
+             </ul>
+              </li>
+     </ul>
+</nav>
+<div class="polaroid">
+    <img src="https://img.freepik.com/free-photo/front-view-yummy-pancakes-chocolate-with-fresh-sliced-bananas-strawberries-inside-white-plate-bright-surface_140725-14542.jpg?size=626&ext=jpg&ga=GA1.1.423289300.1679934264&semt=ais" alt="5 Terre" style="width:100%">
+    <div class="container">
+        <h1>WAFFLES</h1>
+    </div>
+</div>
+
+<div class="main">
+    <ul class="cards">
+
+
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-au-chocolat.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">WAFFLE AU CHOCOLAT</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">13,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-cream-and-cookies.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">CREAM & COOKIES</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">13,99 ron</a></span>
+                </div>
+            </div>
+        </li>
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-strawberry-heaven.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">STRAWBERRY HEAVEN</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">14,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-dream-team.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">DREAM TEAM</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">17,99 ron</a></span>
+                </div>
+            </div>
+        </li>
+
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-marshmallow-surprise.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">MARSHMALLOW SURPRISE</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">14,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-black-and-white.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">BLACK & WHITE</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">15,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-american-sweet-waffle-banoffee.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">GRANOLA BREAKFAST</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">15,99 ron</a></span>
+                </div>
+            </div>
+        </li
+         
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-american-sweet-waffle-nutella-sandwich.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">NUTELLA SANDWICH</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">16,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+         
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-american-sweet-waffle-churro.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">CHURRO</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">16,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+                <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-american-sweet-waffle-triple-chocolate.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">TRIPLE CHOCOLATE</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">15,00 ron</a></span>
+                </div>
+            </div>
+        </li>
+                 <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-american-sweet-waffle-canadian.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">THE CANADIAN</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">15,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+                 <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-american-sweet-waffle-banoffee.jpg"></div>
+                <div class="card_content">
+                    <h2 class="card_title">BANOFFEE</h2>
+                    <p class="card_text"></p>
+                    <span class="card__by"> <a href="ordernow" class="card__author" title="DonutsGo">16,50 ron</a></span>
+                </div>
+            </div>
+        </li>
+
+
+    </ul>
+</div>
+
+<br>
+<br>
+<br>
+<section id="info">
+    <h3>BE NUTS. BE DONUTS.</h3>
+    <p1>
+        DonutsGo is a place for friends and their follies, it's the sweetness next to coffee, the good side of a beginning, middle and end of the day, reason for posting, Insta, snap and selfie. Donuterie donuterie donuts are like you: beautifully bred, sweet, with different toppings and of different shapes. Choose which one you like and make a surprise to your loved ones. Or not!
+
+    </p1>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy"> &copy  2023 DonutsGo</p>
+        </div>
+    </footer>
+
+
+
+
+    <div class="float-sm">
+        <div class="fl-fl float-fb">
+            <i class="fa fa-facebook"></i>
+            <a href="https://www.facebook.com/" target="https://www.facebook.com/"> Facebook</a>
+        </div>
+        <div class="fl-fl float-tw">
+            <i class="fa fa-twitter"></i>
+            <a href="" target="_blank">Follow us!</a>
+        </div>
+        <div class="fl-fl float-gp">
+            <i class="fa fa-google-plus"></i>
+            <a href="" target="_blank">Recommend us!</a>
+        </div>
+    </div>
+
+</section>
+

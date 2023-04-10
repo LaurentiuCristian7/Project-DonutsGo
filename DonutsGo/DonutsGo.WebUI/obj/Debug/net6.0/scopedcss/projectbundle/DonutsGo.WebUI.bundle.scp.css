@@ -684,7 +684,22 @@ header label[b-n61367czmn] {
     }
 
 
+    body[b-n61367czmn] {
+        margin: 40px;
+    }
 
+    div.polaroid[b-n61367czmn] {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+    }
+
+    div.container[b-n61367czmn] {
+        text-align: center;
+        padding: 10px 20px;
+    }
 
 /* /Pages/Products/GiftIdeas.razor.rz.scp.css */
 

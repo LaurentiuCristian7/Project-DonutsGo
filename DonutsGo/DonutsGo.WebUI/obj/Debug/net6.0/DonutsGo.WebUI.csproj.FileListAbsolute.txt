@@ -1675,3 +1675,4 @@ D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\ne
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Users\Register.razor.rz.scp.css
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\GiftIdeas.razor.rz.scp.css
 D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\OrderNow.razor.rz.scp.css
+D:\Git Hub Proiect Donuts\Proiect-Wantsome-\DonutsGo\DonutsGo.WebUI\obj\Debug\net6.0\scopedcss\Pages\Products\Offers.razor.rz.scp.css

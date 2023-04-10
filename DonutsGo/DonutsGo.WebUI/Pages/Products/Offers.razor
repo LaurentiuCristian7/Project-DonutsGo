@@ -1,0 +1,206 @@
+﻿@page "/offers"
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@using DonutsGo.Shared.Models.Products
+@using Microsoft.AspNetCore.Authorization;
+@attribute [Authorize]
+
+
+
+<div class="context"></div>
+<div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+    </ul>
+
+    <nav id="main-nav">
+
+        <h1 class="logo">
+            DonutsGo<br>
+        </h1>
+
+        <ul>
+
+            <li><a class="active" href="login">Log In</a></li>
+            <li><a href="home">Home</a></li>
+            <li>
+                <a href="products">Products</a>
+                <ul>
+                    <li><a href="donuts">Donuts</a></li>
+                    <li><a href="waffles">Waffles</a></li>
+                    <li><a href="drinks">Drinks</a></li>
+                    <li><a href="offers">Offers</a></li>
+                    <li><a href="giftideas">Gift Ideas</a></li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="ordernow">Order Now</a>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="polaroid">
+        <img src="https://cdn.pixabay.com/photo/2023/03/15/12/45/donuts-7854480__340.jpg" alt="5 Terre" style="width:100%">
+        <div class="container">
+            <h1>OFFERS</h1>
+        </div>
+    </div>
+
+
+
+    @if (products.Count==0)
+    {
+        <h3>No products founds...</h3>
+    }
+
+
+    else
+    {
+        <div class="d-flex  flex-wrap justify-content-between">
+
+            @foreach (var product in products)
+            {
+
+                <div class="card m-2" style="width: 35rem;">
+                    <div>
+                        <p>Name: @product.Name</p>
+                        <p>Price: @product.Price</p>
+                        <p>Type:@product.Type</p>
+                    </div>
+                </div>
+
+            }
+        </div>
+    }
+
+
+    @code {
+        private List<ProductResponseModel> products = new List<ProductResponseModel>();
+
+        protected override async Task OnInitializedAsync()
+        {
+            try
+            {
+                products = await Http.GetFromJsonAsync<List<ProductResponseModel>>("products");
+            }
+            catch
+            {
+                products = new List<ProductResponseModel>();
+            }
+
+
+
+        }
+    }
+    <div class="main">
+        <ul class="cards">
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="http://donuterie.ro/img/donuts/Donuterie-Apple-Caramel.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">APPLE CARAMEL</h2>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="http://donuterie.ro/img/bauturi/Donuterie-Vanilla-Milkshake.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">VANILLA MILKSHAKE</h2>
+
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="http://donuterie.ro/img/minidonuts/Tavalite-Romanesti.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">TĂVĂLITE ROMÂNEȘTI 75g</h2>
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="http://donuterie.ro/img/bauturi/Donuterie-Iced-Latte.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title"> ICED LATTE</h2>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="http://donuterie.ro/img/bauturi/Donuterie-Choco-Milkshake.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">CHOCO MILKSHAKE</h2>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://wafflemeister.com/wp-content/uploads/2017/05/wm-waffle-au-chocolat.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">WAFFLE AU CHOCOLAT</h2>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="http://donuterie.ro/img/donuts/donuterie-sandwich-ciocolata-neagra-500x500.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">DONUTS C</h2>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+
+    
+
+
+
+
+    <section id="info">
+        <h3>BE NUTS. BE DONUTS.</h3>
+        <footer>
+            <div class="contenedor">
+                <p class="copy"> &copy  2023 DonutsGo</p>
+            </div>
+        </footer>
+
+
+
+
+        <div class="float-sm">
+            <div class="fl-fl float-fb">
+                <i class="fa fa-facebook"></i>
+                <a href="https://www.facebook.com/" target="https://www.facebook.com/"> Facebook</a>
+            </div>
+            <div class="fl-fl float-tw">
+                <i class="fa fa-twitter"></i>
+                <a target="_blank">Follow us!</a>
+            </div>
+            <div class="fl-fl float-gp">
+                <i class="fa fa-google-plus"></i>
+                <a target="_blank">Recommend us!</a>
+            </div>
+        </div>
+
+    </section>
+
+</div>

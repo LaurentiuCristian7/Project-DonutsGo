@@ -32,13 +32,13 @@
                <li><a href="donuts">Donuts</a></li>
                <li><a href="waffles">Waffles</a></li>
                <li><a href="drinks">Drinks</a></li>
+               <li><a href="offers">Offers</a></li>
+               <li><a href="giftideas">Gift Ideas</a></li>
+
            </ul>
                </li>
            
                <li><a href="ordernow">Order Now</a>
-             <ul>
-               <li><a href="giftideas">Gift Ideas</a></li>
-             </ul>
               </li>
             </ul>
           
@@ -47,42 +47,14 @@
       <br>
       <br>
       <br>
-      <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
     <h2>PRODUCTS</h2>
     <div class="main">
         <ul class="cards">
-            <li class="cards_item">
-                <div class="card">
-                    <div class="card_image"><img src="https://dynl.mktgcdn.com/p/qRPIHnAM-OtMwvUiqqrCGUDjb4jj-a3flaTZdR1ElxE/1900x1069.jpg"></div>
-                    <div class="card_content">
-                        <h2 class="card_title">Espresso</h2>
-                        <p class="card_text"></p>
-                        <span class="card__by"> <a href="drinks" class="card__author" title="DonutsGo">Drinks</a></span>
-                    </div>
-                </div>
-            </li>
-
-            <li class="cards_item">
-                <div class="card">
-                    <div class="card_image"><img src="https://dynl.mktgcdn.com/p/XcaubV2iuswK6fyjIb5oSiDEzZYv12uLi8_8uOWICgg/1900x1069.jpg"></div>
-                    <div class="card_content">
-                        <h2 class="card_title">Orange Juice</h2>
-                        <p class="card_text"></p>
-                        <span class="card__by"> <a href="drinks" class="card__author" title="DonutsGo">Drinks</a></span>
-
-                    </div>
-                </div>
-            </li>
-            <li class="cards_item">
-                <div class="card">
-                    <div class="card_image"><img src="https://dynl.mktgcdn.com/p/yDcPYsG98Yql6HrLJ077bczrN6lR5maLvD-neaxifzE/1900x1069.jpg"></div>
-                    <div class="card_content">
-                        <h2 class="card_title">7 Up</h2>
-                        <p class="card_text"></p>
-                        <span class="card__by"> <a href="drinks" class="card__author" title="DonutsGo">Drinks</a></span>
-                    </div>
-                </div>
-            </li>
 
 
             <li class="cards_item">
@@ -198,60 +170,44 @@
                     </div>
                 </div>
             </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://dynl.mktgcdn.com/p/qRPIHnAM-OtMwvUiqqrCGUDjb4jj-a3flaTZdR1ElxE/1900x1069.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Espresso</h2>
+                        <p class="card_text"></p>
+                        <span class="card__by"> <a href="drinks" class="card__author" title="DonutsGo">Drinks</a></span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://dynl.mktgcdn.com/p/XcaubV2iuswK6fyjIb5oSiDEzZYv12uLi8_8uOWICgg/1900x1069.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Orange Juice</h2>
+                        <p class="card_text"></p>
+                        <span class="card__by"> <a href="drinks" class="card__author" title="DonutsGo">Drinks</a></span>
+
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="https://dynl.mktgcdn.com/p/yDcPYsG98Yql6HrLJ077bczrN6lR5maLvD-neaxifzE/1900x1069.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">7 Up</h2>
+                        <p class="card_text"></p>
+                        <span class="card__by"> <a href="drinks" class="card__author" title="DonutsGo">Drinks</a></span>
+                    </div>
+                </div>
+            </li>
+
         </ul>
     </div>
              <br>
              <br>
 
-    <h3>OFFERS</h3>
-
-
-
-    @if (products.Count==0)
-    {
-        <h3>No products founds...</h3>
-    }
-
-
-    else
-    {
-        <div class="d-flex  flex-wrap justify-content-between">
-
-            @foreach (var product in products)
-            {
-
-                <div class="card m-2" style="width: 35rem;">
-                    <div>
-                        <img src="https://media.istockphoto.com/id/1327275120/photo/belgian-or-viennese-waffles-with-strawberries-on-minimalistic-concrete-grey-background.jpg?b=1&s=170667a&w=0&k=20&c=o2IfNJDhnddJpLHtlEI3RRJJD_YreqEsC_GIbTmHkk0=" class="card-img-top" alt="...">
-                        <p>Name: @product.Name</p>
-                        <p>Price: @product.Price</p>
-                        <p>Type:@product.Type</p>
-                    </div>
-                </div>
-
-            }
-        </div>
-    }
-
-
-    @code {
-     private List<ProductResponseModel> products = new List<ProductResponseModel>();
-
-     protected override async Task OnInitializedAsync()
-     {
-        try
-        {
-           products = await Http.GetFromJsonAsync<List<ProductResponseModel>>("products");
-        }
-        catch
-        {
-           products = new List<ProductResponseModel>();
-        }
-
-        
-
-     }
-       }
     
       <section id="info">				
         <h3>BE NUTS. BE DONUTS.</h3>            	    
@@ -271,11 +227,11 @@
       </div>
           <div class="fl-fl float-tw">
              <i class="fa fa-twitter"></i>
-             <a href="" target="_blank">Follow us!</a>
+             <a target="_blank">Follow us!</a>
            </div>
           <div class="fl-fl float-gp">
              <i class="fa fa-google-plus"></i>
-             <a href="" target="_blank">Recommend us!</a>
+             <a target="_blank">Recommend us!</a>
           </div>
       </div>
 

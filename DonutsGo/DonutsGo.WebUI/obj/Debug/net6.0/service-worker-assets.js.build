@@ -881,11 +881,11 @@
       "url": "_framework\/DonutsGo.Shared.pdb"
     },
     {
-      "hash": "sha256-eDVPVTJx3nDy3QsF1d4nKXusonfMXpbyvm\/cJrRyDfY=",
+      "hash": "sha256-cztV+wjXQcATszS2JjfDuvxOsKEg11zxwaAN\/aKOoS4=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
     {
-      "hash": "sha256-giX+Ri68Nx+dQf3kbbwm5dMGjrSh76Zxz5ZNE5rS7Vk=",
+      "hash": "sha256-UAmTPoie6FkjLJcOkF8BD3wbue8IinpgRRo\/9ghTzPQ=",
       "url": "_framework\/DonutsGo.WebUI.pdb"
     },
     {
@@ -893,7 +893,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-RVSy\/5OTQfWYmZ24H+R0ojRtS7Hx2DPOW7EmfcsUfXE=",
+      "hash": "sha256-49n+XPL6iiI7sZErmVfL+pIcn7hdn9Du6lYQBZNPt6Y=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -901,5 +901,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "zanDUnAy"
+  "version": "KMDX5Gzl"
 };

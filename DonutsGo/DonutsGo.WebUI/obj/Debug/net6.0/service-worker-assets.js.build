@@ -877,6 +877,10 @@
       "url": "_framework\/DonutsGo.Shared.dll"
     },
     {
+      "hash": "sha256-mOflub469VNDKKoRgVOGMXvGIoDQGwP7R61UvAuDxEo=",
+      "url": "_framework\/DonutsGo.Shared.pdb"
+    },
+    {
       "hash": "sha256-T5C\/fu4ERu3NAmAb+abKg6ZDIMkLZWO2PPtX0CBPMbg=",
       "url": "_framework\/DonutsGo.WebUI.dll"
     },
@@ -897,5 +901,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "cAOspqnP"
+  "version": "DI9eUgGJ"
 };
